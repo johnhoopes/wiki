@@ -4,7 +4,7 @@
 A thick client would be a client with a standalone executable.  No browser would be involved.
 
 # Areas to Check
-[Authentication](/authentication)
+[Authentication](/thick-client-authentication)
 Authorization
 Local Storage Issues
 Network Communication
