@@ -3,9 +3,16 @@
 
 # Attack
 [Metasploit](/metasploit-main)
+
+# Alternative Clients
+[cygwin-tn3270](/tn3270)
+[SQL Squirrel](/sqlsquirrel)
+[remote-desktop](/remote-desktop)
+
 # Debugging
 [Ollydbg](/ollydbg)
 [Immunity Debugger](/immunity-debugger)
+[Process Explorer](/process-explorer)
 # Developing
 [pycharm](/pycharm)
 [git](/git-intro)
