@@ -1,5 +1,5 @@
-<!-- TITLE: Authentication -->
-<!-- SUBTITLE: A quick summary of Authentication -->
+<!-- TITLE: Thick Client Authentication -->
+<!-- SUBTITLE: Thick Client Authentication Issues -->
 
 * How does the application manage users?
 * Is the user database local or remote?
