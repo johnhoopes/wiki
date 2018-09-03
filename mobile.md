@@ -7,7 +7,7 @@
 [Extracting APK](/mobile-extracting-apks)
 [dex2jar](/mobile-dex2jar)
 [Modification of APK](/mobile-apk-modification)
-[debugging](/mobile/android-debugging)
+[Debugging](/mobile/android-debugging)
 # IOS
 [Accessing IPA File on Device](/mobile-ios-ipa)
 [Exploring IOS Device Backup](/mobile-ios-backup)
