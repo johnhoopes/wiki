@@ -10,8 +10,8 @@ Things to watch for:
 * Caching
 * Plaintext vs [Encryption](/encryption)
 
-[Sniffing Tools](/tools#Sniffing)
+[Sniffing Tools](/tools#sniffing)
 # Interception / Modification
 The idea of this section is to catch the traffic in transit and view or modify it.
-[MITM Tools](/tools#MITM)
+[MITM Tools](/tools#mitm)
 # Custom Client
