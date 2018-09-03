@@ -2,6 +2,11 @@
 <!-- SUBTITLE: A Way for Tilver to Organize his thoughts -->
 
 # Application Security
+[Mobile Clients](/mobile)
 [Thick Clients](/thick-clients)
-# Python Notes
-# Metasploit Notes
+# Languages - Tips and Notes
+[Python](/python)
+[Java](/java)
+
+# Tools
+[Tools](/tools)
