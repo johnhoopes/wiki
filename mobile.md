@@ -1,5 +1,5 @@
 <!-- TITLE: Mobile -->
-<!-- SUBTITLE: A quick summary of Mobile -->
+<!-- SUBTITLE: A quick summary of Mobile Application Testing -->
 
 # Android
 [Pulling APK from Device](/mobile-fetching-apk)
