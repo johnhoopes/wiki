@@ -37,3 +37,5 @@
 [openssl](/openssl)
 [socat](/socat)
 [iptables](/iptables)
+[openssh](/openssh)
+[rsync](/rsync)
