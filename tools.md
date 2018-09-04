@@ -19,6 +19,9 @@
 [pycharm](/pycharm)
 [git](/git-intro)
 # Editing
+[xxd](/xxd)
+[notepad++](/notepadplusplus)
+
 # Sniffing
 [wireshark](/wireshark)
 [pcap tools](/pcap)
