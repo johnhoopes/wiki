@@ -5,4 +5,3 @@ Idea behind this page is to take a usb pcap from wireshark, and create a custom 
 
 1.  First replay the USB capture
 2.  Implement traffic modification
-3.  
