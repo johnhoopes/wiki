@@ -5,7 +5,7 @@
 [tcp client](/python-tcpclient)
 [tcp server](/python-tcpserver)
 [tcp proxy](/python-tcpproxy)
-
+[USB Client in Python](/python-usbclient)
 # Useful Modules
 [scapy](/python-scapy)
 
