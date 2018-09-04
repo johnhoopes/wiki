@@ -15,6 +15,7 @@
 [Immunity Debugger](/immunity-debugger)
 [Process Explorer](/process-explorer)
 [Angr](/angr)
+[Pai-Mei](/pai-mei-updated)
 # Developing
 [pycharm](/pycharm)
 [git](/git-intro)
