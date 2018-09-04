@@ -14,6 +14,7 @@
 [IDA](/ida)
 [Immunity Debugger](/immunity-debugger)
 [Process Explorer](/process-explorer)
+[Angr](/angr)
 # Developing
 [pycharm](/pycharm)
 [git](/git-intro)
