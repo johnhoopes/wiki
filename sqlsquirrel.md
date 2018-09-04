@@ -1,6 +1,8 @@
 <!-- TITLE: Sqlsquirrel -->
 <!-- SUBTITLE: A quick summary of Sqlsquirrel -->
 
+[Back to Tools](/tools)
+
 Website: http://squirrel-sql.sourceforge.net/
 
 # Summary
