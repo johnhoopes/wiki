@@ -1,6 +1,8 @@
 <!-- TITLE: Tilver's Musings -->
 <!-- SUBTITLE: A Way for Tilver to Organize his thoughts -->
 
+# Tools
+[Tools](/tools)
 # Application Security
 [Web](/webapps)
 [Mobile Clients](/mobile)
@@ -15,6 +17,7 @@
 [ARM Assembly](/arm-asm)
 [Windows PE](/windows-pe)
 
-
-# Tools
-[Tools](/tools)
+# Operating Systems - Tips and Notes
+[Linux](/linux)
+[Windows](/windows)
+[IOS](/ios)
