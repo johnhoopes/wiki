@@ -13,3 +13,5 @@ Using the right click to set up filter
 
 # Follow TCP Stream
 # USB Sniffing
+[USB Sniffing](/wireshark-usbsniffing)
+[USB Client in Python](/python-usbclient)
