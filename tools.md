@@ -11,6 +11,7 @@
 
 # Debugging
 [Ollydbg](/ollydbg)
+[IDA](/ida)
 [Immunity Debugger](/immunity-debugger)
 [Process Explorer](/process-explorer)
 # Developing
