@@ -20,4 +20,14 @@ Look at how the disk is used.
 Similar to Disk except probably very little associated with running state
 * Look after running and see what's there
 # Permissions
+What permission does the application run under? (Use task Manager / ps to check this)  Hopefully not root.
+Does it drop privileges?  (Linux concept.  Find with Disassembly)
+
+
 # Library Loading
+Look at library loading path.
+On linux strace will show all of the paths checked until the library is loaded.
+On windows process explorer will show it.
+Idea is... to put a dll into a location that will be checked before the correct one.
+If you can... use [DLL Hooking](/dll-hooking) or [SO Hooking](/so-hooking) for proof of concept and hooking.
+
