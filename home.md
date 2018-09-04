@@ -7,6 +7,7 @@
 # Languages - Tips and Notes
 [Python](/python)
 [Java](/java)
+[.Net](/dotnet)
 
 # Tools
 [Tools](/tools)
