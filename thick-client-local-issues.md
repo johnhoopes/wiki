@@ -22,7 +22,7 @@ Similar to Disk except probably very little associated with running state
 # Permissions
 What permission does the application run under? (Use task Manager / ps to check this)  Hopefully not root.
 Does it drop privileges?  (Linux concept.  Find with Disassembly)
-
+Is there a secondary portion of the application (drivers / services) that runs at a higher privilege?
 
 # Library Loading
 Look at library loading path.
