@@ -15,3 +15,5 @@ Using data from reverse-engineering, key functions can be identified.  At it's s
 Even better than watching buffers, we can modify the buffers.  It's quite common for application developers to make assumptions that data being passed inside encrypted tunnels is "safe".  It's got a sort of implicit trust that no one could have tampered with the data.  As a result this is often one of our most effective techniques.  Sometimes developers even try to layer encryption.  They'll encrypt something and then send it through an SSL tunnel. 
 
 # Breakpoints - Memory
+Memory breakpoints are used to flag when data is accessed.  A breakpoint can usually be set based on reads or writes depending on the goal.  For example sometimes we watch when a packet is read, and then flag every time that data is touched in hopes of finding vulnerabiliites.  The idea of tracing the flow of "untrusted" data to see where it's used can allow a tester to concentrate on the parts of an application that matter most. 
+
