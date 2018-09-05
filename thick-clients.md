@@ -11,6 +11,7 @@ A thick client would be a client with a standalone executable.  No browser would
 [Encryption](encryption)
 
 # Techniques
+[Debugging](/debugging)
 [DLL Injection](/dll-injection)
 [Hooked Dll Creation](/hooked-dll-creation)
 [so library injection](/so-injection)
