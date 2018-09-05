@@ -3,6 +3,7 @@
 
 # Attack
 [Metasploit](/metasploit-main)
+[Social Engineering Toolkit](/set)
 
 # Alternative Clients
 [cygwin-tn3270](/tn3270)
