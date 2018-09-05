@@ -11,12 +11,14 @@
 [remote-desktop](/remote-desktop)
 
 # Debugging
+[GDB](/gdb)
 [Ollydbg](/ollydbg)
 [IDA](/ida)
 [Immunity Debugger](/immunity-debugger)
 [Process Explorer](/process-explorer)
 [Angr](/angr)
 [Pai-Mei](/pai-mei-updated)
+
 # Developing
 [pycharm](/pycharm)
 [git](/git-intro)
