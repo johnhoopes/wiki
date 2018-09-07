@@ -3,6 +3,6 @@
 
 Websites:
 
-[website found on twitter](http://www.cs.virginia.edu/~evans/cs216/guides/x86.html)
+[website found on reddit](http://www.cs.virginia.edu/~evans/cs216/guides/x86.html)
 
 
