@@ -3,7 +3,7 @@
 
 
 ```text
-iwconfig mode managed
+iwconfig wlan0 mode managed
 iwconfig wlan0 essid SSID
 ifconfig wlan0 up
 dhclient wlan0
