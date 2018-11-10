@@ -3,3 +3,4 @@
 
 # Tools
 [Bloodhound](/bloodhound)
+[Empire](/empire)
