@@ -1,5 +1,5 @@
-<!-- TITLE: Internalmigration -->
-<!-- SUBTITLE: A quick summary of Internalmigration -->
+<!-- TITLE: Internal Migration -->
+<!-- SUBTITLE: A quick summary of Internal Migration -->
 
 # Tools
 [Bloodhound](/bloodhound)
