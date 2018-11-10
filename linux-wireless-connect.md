@@ -1,5 +1,10 @@
 <!-- TITLE: Linux Wireless Connect -->
 <!-- SUBTITLE: A quick summary of Linux Wireless Connect -->
 
-`iwconfig mode managed
-iwconfig wlan0 essid SSID`
+
+```text
+iwconfig mode managed
+iwconfig wlan0 essid SSID
+ifconfig wlan0 up
+dhclient wlan0
+```
