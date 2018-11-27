@@ -8,9 +8,13 @@
 Can this be sent unsolicited?
 
 # Example Response
-`function FindProxyForURL(url, host) {
+
+```text
+function FindProxyForURL(url, host) {
         return "PROXY 10.0.0.169:8080";
-}`
+}
+```
+
 
 
 # Example Python Server (note content-type)
