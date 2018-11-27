@@ -53,5 +53,21 @@ httpd.serve_forever()
 # Hash Collection using WPAD
 responder does this.  Should upgrade python server to only request it once per machine.  Once I've got it, don't require it.  Also research which processes will provide it.  Windows Update?  Adobe?
 
-
-
+# Things to Try
+* Want list of software that honors WPAD.  DHCP, DNS, and WINS
+	* Collect User-agent
+	* how many times does each piece try?
+		* Which one is actually used?
+	* Caching?
+* All software needs to try all tests
+* Will need base64-encoding function for leak encoding
+* Tests - To be done inside FindProxyForURL and outside
+	* Alert()
+	* Divide by zero
+	* Namespace exploration
+	* dns resolution to indicate execution
+	* infinite loop
+	* infinite recursion
+	* spectre stuff for external examination
+	* Does js have exception handling?
+	* explore built in function implementation (looking for leaks)
