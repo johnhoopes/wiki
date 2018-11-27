@@ -1,5 +1,5 @@
 <!-- TITLE: Dhcp -->
-<!-- SUBTITLE: A quick summary of Dhcp -->
+<!-- There are many lesser used options in DHCP.  Any of them interesting? -->
 
 # Other Options
 http://www.iana.org/assignments/bootp-dhcp-parameters/bootp-dhcp-parameters.xml
