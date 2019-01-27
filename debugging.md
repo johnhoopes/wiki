@@ -6,6 +6,7 @@ Hacker Debugging Uncovered
 
 Tools
 [Ollydbg](/ollydbg)
+[angr](/angr)
 # Goals
 We use debugging concepts to figure out how an application works internally.  Instead of trying to understand an entire application debugging (and [reverse-engineering](/reverse-engineering)) is used to isolate specific behaviors and functions.  Debugging is a dynamic analysis method.  This can help give context to reverse engineering data.  Debugging can be used to walk through functions and observe the data that is being manipulated.  It can be used to watch as data is acquired by the application and then that data can be traced as it's manipulated.  
 
