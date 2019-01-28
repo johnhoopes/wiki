@@ -1,5 +1,5 @@
-<!-- TITLE: Payloaddll -->
-<!-- SUBTITLE: A quick summary of Payloaddll -->
+<!-- TITLE: Payload in a dll -->
+<!-- SUBTITLE: A quick summary of Payload in a dll -->
 
 From
 http://hype-free.blogspot.com/2009/01/loading-meterpreter-in-dll.html
