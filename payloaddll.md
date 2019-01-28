@@ -118,3 +118,36 @@ BOOL WINAPI __declspec(dllexport) LibMain(HINSTANCE hDLLInst, DWORD fdwReason, L
 
 
 ```
+
+A few remarks about the source code:
+
+    The modus operandi is the following: as soon as the DLL is loaded a new thread is spawned. This thread copies the shellcode to a newly allocated memory block and jumps to it. This means that you don't need to actually call functions from the DLL to start it. Also, this means that the thread loading the DLL is not blocked.
+    The zone where the shellcode is copied is marked properly with the execution attribute, this means that it will work even with NX/DEP enabled (because we're telling the OS that we do want to execute code from the given memory pages)
+    Casting the pointer to the shellcode to a function pointer and calling it trough that was necessary because LCC doesn't seem to support inline assembly statements. As a sideeffect this code is also more portable (because it doesn't have to account for the Intel vs. AT&T assembly syntax differences)
+    If you are compiling this LCC, you need to explicitly disable the "name mangling" for the exports to have the correct name (otherwise it will be named like "_doNothingFunc@4"). You can do this, go to Project -> Configuration -> Linker and check the "Do not include underscores in the dll exports" option.
+
+Now, how can you load this dll?
+
+    Via rundll32 (for testing): rundll32 mdll.dll,doNothingFunc 123
+    Including it in an install kit. You need to add lines similar to the following to the WiX script previously discussed:
+
+    <Binary Id="SampleDllCa" SourceFile="/pefile/mdll/lcc/msdll.dll" />
+
+    <CustomAction Id="Meterpreter" BinaryKey="SampleDllCa" DllEntry="doNothingFunc" />
+
+
+
+    <InstallExecuteSequence>
+
+      <Custom Action="Meterpreter" Sequence='1'/>
+
+    </InstallExecuteSequence>
+
+    Using the AppInit_DLLS registry key. Contrary with what the linked documentation says, this works up to Windows 2k3. In Vista they changed it to LoadAppInit_DLLs with stricter ACLs (thanks to Raymond Chen for the link). One sideeffect is that the DLL is loaded every application, so be prepared to get a bunch of connections if you are using the connect-back payload.
+    Importing the DLL from a macro. You can also check out Didier Steven's post about this topic.
+
+One thing to keep in mind is that the process which hosts the DLL might end quickly, so something like this script to automatically migrate to a new process should be taken into consideration.
+
+Have fun and stay safe!
+
+Update: the same MSI is executed both on installing and uninstalling the product, so the DLL does have a second chance to run.
