@@ -5,7 +5,6 @@
 msf > services -p 445 -R
 
 Services
- ------------
 
 host           port  proto  name          state  info
 ----           ----  -----  ----          -----  ----
