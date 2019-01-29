@@ -4,7 +4,7 @@
 # Loading RHOSTS with a db query result
 msf > services -p 445 -R
 
- Services
+Services
 ========
 
 host           port  proto  name          state  info
