@@ -1,7 +1,11 @@
 <!-- TITLE: Vagrant -->
 <!-- SUBTITLE: A quick summary of Vagrant -->
 
+
+https://www.engineyard.com/blog/building-a-vagrant-box
 # Kali
+this box was made by a denhac member
+
 u: vagrant p: vagrant
 
 Vagrant Config for Kali
