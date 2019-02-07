@@ -45,3 +45,12 @@
 
 # Container Tech
 [vagrant](/vagrant)
+kubernetes
+puppet
+chef
+
+# Mobile
+[adb](/adb)
+
+# Code Analysis
+[jd-gui](/jdgui)
