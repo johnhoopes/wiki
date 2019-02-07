@@ -16,3 +16,11 @@ https://www.youtube.com/watch?v=NldYgRAANOo
 
 
 # Drivers
+Access - http://ucanaccess.sourceforge.net/site.html#clients
+
+Import the .jar file in the main directory created by opening the .zip plus all of the .jars in the lib directory
+Class name is net.ucanaccess.jdbc.UcanaccessDriver
+
+Example URL:   jdbc:ucanaccess:///home/gord/Documents/Database1.accdb;showSchema=true
+(I used it successfully to open an mdb file)
+
