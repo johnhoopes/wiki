@@ -15,6 +15,8 @@
 [MSFDB](/msfdb)
 
 [MSFRPC](/msfrpc)
+
+[Programming](/metasploitprogramming)
 # Known Attack Patterns
 [Pass the Hash](/passthehash)
 [Browser Attacks](/browserattacks)
