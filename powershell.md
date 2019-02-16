@@ -1,6 +1,17 @@
 <!-- TITLE: Powershell -->
 <!-- SUBTITLE: A quick summary of Powershell -->
 
+# Execute
+```text
+%COMSPEC% /B /C start powershell.exe -Command $si = New-Object
+System.Diagnostics.ProcessStartInfo;$si.FileName = 'powershell.exe';
+$si.Arguments = ' -EncodedCommand [BASE64 PAYLOAD] ';
+$si.UseShellExecute = $false;
+$si.RedirectStandardOutput = $true;$si.WindowStyle = 'Hidden';
+$si.CreateNoWindow = $True;
+$p = [System.Diagnostics.Process]::Start($si);
+```
+
 # Download and Execute
 Good reference for many ways:  https://www.greyhathacker.net/?p=500
 
