@@ -28,3 +28,4 @@
 # Topics to Research
 [WPAD](/wpad)
 [DHCP](/dhcp) - Other DHCP options.  Can you force page loads / SMB Hash disclosure via other DHCP options?
+[CCDC](/ccdc) - Sort of research
