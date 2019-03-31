@@ -7,6 +7,8 @@ import angr
 proj = angr.Project('/bin/true')
 
 proj.loader.all_objects - shows all the parts that were loaded
+proj.loader.find_symbol('malloc')
+
 '''
 # Hooking Functions
 '''
@@ -36,6 +38,18 @@ state.mem[addr].type = x
 
 simgr = proj.factory.simulation_manager(state)
 simgr.step() - steps an entire basic block
+
+# BitVectors
+'''
+one = state.solver.BVV(1, 64)   - 64bit vector with the value of one
+one_hundred = state.solver.BVV(100,64)
+
+one + one_hundred = <BV 0x64>
+one_hundred + 0x100 = <BV 0x164>
+
+
+'''
+
 
 # Analyses
 
