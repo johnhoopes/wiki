@@ -62,3 +62,15 @@ len(list(cfg.graph.successors(entry_node)))
 
 
 
+# Solver
+
+solver.eval(expression) - will give you one answer
+solver.eval_one(expression) - gives the ansewr, error if more than one
+solver.eval_upto(expression, n) - gives upto n solutions
+solver.eval_atleast(expression, n) - gives n solutions and errors if n aren't possible
+solver.eval_exact(expression, n), gives n solutions and errors if fewer or more are possible.
+solver.min(expression) - gives minimum possible solution
+solver.max(expression) - gives maximum solution
+
+state.solver.eval(state.solver.BVV(0x41424344, 32), cast_to=str) will return "ABCD"
+
