@@ -15,3 +15,4 @@
 [String Functions](/python-strings)
 [Process Functions](/python-processes)
 [Describing Modules](/python-module-description)
+[C-Types](/python-ctypes)
