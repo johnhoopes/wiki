@@ -16,5 +16,6 @@ c_void_p
 class ABC(structure): 
     _fields_ = [
 		("field_one", c_int),
-		("field_two", c_char)]
+		("field_two", c_char)
+		]
 ```
