@@ -7,6 +7,7 @@
 [tcp proxy](/python-tcpproxy)
 [Custom Network Client from Pcap](/python-customnetworkclient)
 [USB Client in Python](/python-usbclient)
+[Windows-Debugging-Python](/windows-debugging-python)
 # Useful Modules
 [scapy](/python-scapy)
 
