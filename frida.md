@@ -19,6 +19,9 @@ $ adb shell "/data/local/tmp/frida-server &"
 
 
 # PS Listing
+```
+frida-ps -U
+```
 
 # Frida Script to ignore SSL validation issues 
 (save below as universal-ssl-check-bypass.js)
