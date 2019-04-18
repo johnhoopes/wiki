@@ -7,7 +7,7 @@ pip install frida
 pip install frida-tools
 ```
 
-Then you need a frida-server installed.  Grab that here.... https://github.com/frida/frida/releases
+Then you need a frida-server installed on the device.  Grab that here.... https://github.com/frida/frida/releases
 Note that x86 or x86_64 depends on the processor of emulator (mine is x86 for now)
 
 ```
