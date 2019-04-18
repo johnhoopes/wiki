@@ -51,6 +51,7 @@ chef
 
 # Mobile
 [adb](/adb)
+[frida](/frida)
 
 # Code Analysis
 [jd-gui](/jdgui)
