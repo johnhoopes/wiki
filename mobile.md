@@ -11,3 +11,6 @@
 # IOS
 [Accessing IPA File on Device](/mobile-ios-ipa)
 [Exploring IOS Device Backup](/mobile-ios-backup)
+
+# Both
+[Frida](/frida)
