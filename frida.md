@@ -11,10 +11,10 @@ Then you need a frida-server installed on the device.  Grab that here.... https:
 Note that x86 or x86_64 depends on the processor of emulator (mine is x86 for now)
 
 ```
-$ adb root # might be required
-$ adb push frida-server /data/local/tmp/ 
-$ adb shell "chmod 755 /data/local/tmp/frida-server"
-$ adb shell "/data/local/tmp/frida-server &"
+adb root # might be required
+adb push frida-server /data/local/tmp/ 
+adb shell "chmod 755 /data/local/tmp/frida-server"
+adb shell "/data/local/tmp/frida-server &"
 ```
 
 
