@@ -14,10 +14,13 @@
 [GDB](/gdb)
 [Ollydbg](/ollydbg)
 [IDA](/ida)
+[Ghidra](/ghidra)
 [Immunity Debugger](/immunity-debugger)
 [Process Explorer](/process-explorer)
 [Angr](/angr)
 [Pai-Mei](/pai-mei-updated)
+[PwnTools](/pwntools)
+
 
 # Developing
 [pycharm](/pycharm)
