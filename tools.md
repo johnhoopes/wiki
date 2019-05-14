@@ -51,6 +51,7 @@
 kubernetes
 puppet
 chef
+teraform
 
 # Mobile
 [adb](/adb)
