@@ -27,6 +27,7 @@ if System.wow64:
 print "From this Python VM we can attach to %d-bit processes." % System.bits
 ```
 
+```
 from winappdbg import System
 
 # Create a system snaphot.
