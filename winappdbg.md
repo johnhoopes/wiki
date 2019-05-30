@@ -16,7 +16,7 @@ crashlogger.py - very interesting.  Meant to detect crashes and might be able to
 # Modules
 System - information about current vm.  32bit vs 64bit (System.Wow64 True if 32 bit)
 
-'''
+```
 from winappdbg import System
 
 # Create a system snaphot.
@@ -25,6 +25,8 @@ system = System()
 # Now we can enumerate the running processes.
 for process in system:
     print "%d:\t%s" % ( process.get_pid(), process.get_filename() )
-'''
+```
+
+
 
 
