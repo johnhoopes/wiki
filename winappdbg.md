@@ -14,7 +14,7 @@ crashlogger.py - very interesting.  Meant to detect crashes and might be able to
 
 
 # Modules
-System - information about current vm.  32bit vs 64bit (System.Wow64 True if 32 bit)
+System - information about current vm.
 
 ```
 from winappdbg import System, version
@@ -50,4 +50,49 @@ process = system.start_process( command_line ) # see the docs for more options
 print "Started process %d (%d bits)" % ( process.get_pid(), process.get_bits() )
 ```
 
+Process
+```
+from winappdbg import Process, HexDump
+
+def print_threads_and_modules( pid ):
+
+    # Instance a Process object.
+    process = Process( pid )
+    print "Process %d" % process.get_pid()
+
+    # Now we can enumerate the threads in the process...
+    print "Threads:"
+    for thread in process.iter_threads():
+        print "\t%d" % thread.get_tid()
+
+    # ...and the modules in the process.
+    print "Modules:"
+    bits = process.get_bits()
+    for module in process.iter_modules():
+        print "\t%s\t%s" % (
+            HexDump.address( module.get_base(), bits ),
+            module.get_filename()
+        )
+```
+
+Read some memory
+
+```
+
+from winappdbg import Process
+
+def process_read( pid, address, length ):
+
+    # Instance a Process object.
+    process = Process( pid )
+
+    # Read the process memory.
+    data = process.read( address, length )
+
+    # You can also change the process memory.
+    # process.write( address, "example data" )
+
+    # Return a Python string with the memory contents.
+    return data
+```
 
