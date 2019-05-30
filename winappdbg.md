@@ -96,3 +96,31 @@ def process_read( pid, address, length ):
     return data
 ```
 
+Enumerate Threads
+```
+from winappdbg import Process, HexDump
+def print_threads ( pid ):
+    process = Process( pid )
+    print "Threads:"
+    for thread in process.iter_threads():
+        print "\t%d" % thread.get_tid()				
+```
+
+Print a thread context
+
+```
+from winappdbg import Thread, CrashDump, System
+
+def print_thread_context( tid ):
+    System.request_debug_privileges()
+    thread = Thread( tid )
+    try:
+		    thread.suspend()
+        context = thread.get_context()
+    finally:
+        thread.resume()
+				
+    print CrashDump.dump_registers( context ),
+		
+```
+
