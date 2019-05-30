@@ -27,6 +27,7 @@ if System.wow64:
 print "From this Python VM we can attach to %d-bit processes." % System.bits
 ```
 
+Enumerate processes
 ```
 from winappdbg import System
 
