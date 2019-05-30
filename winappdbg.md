@@ -17,6 +17,16 @@ crashlogger.py - very interesting.  Meant to detect crashes and might be able to
 System - information about current vm.  32bit vs 64bit (System.Wow64 True if 32 bit)
 
 ```
+from winappdbg import System, version
+
+# Show the Windows version and the current architecture.
+print "WinAppDbg %s" % version
+print "Running on %s for the %s architecture." % (System.os, System.arch)
+if System.wow64:
+    print "Running in 32 bit emulation mode."
+print "From this Python VM we can attach to %d-bit processes." % System.bits
+```
+
 from winappdbg import System
 
 # Create a system snaphot.
