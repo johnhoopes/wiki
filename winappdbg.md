@@ -30,15 +30,24 @@ print "From this Python VM we can attach to %d-bit processes." % System.bits
 Enumerate processes
 ```
 from winappdbg import System
-
-# Create a system snaphot.
+# Create a system object.
 system = System()
-
 # Now we can enumerate the running processes.
 for process in system:
     print "%d:\t%s" % ( process.get_pid(), process.get_filename() )
 ```
 
+Starting a process
 
+```
+from winappdbg import System
+import sys
+# Instance a System object.
+system = System()
+# Start a new process.
+process = system.start_process( command_line ) # see the docs for more options
+# Show info on the new process.
+print "Started process %d (%d bits)" % ( process.get_pid(), process.get_bits() )
+```
 
 
