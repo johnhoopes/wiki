@@ -18,3 +18,5 @@ Java Jar file (note the [R]aw and not [J]avascript output.)
 
 [Payload in a DLL](/payloaddll) - (msfvenom can do this now, but interesting for future anyway.)
 
+[Powershell Example](/metasploit-powershell-payload)
+
