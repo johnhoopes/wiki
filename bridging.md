@@ -26,3 +26,9 @@ ip link delete bridge_name type bridge
 ip addr add dev bridge_name 192.168.66.66/24
 
 ```
+
+# Guide to intercept a port going through the bridge
+http://people.apache.org/~amc/tiphares/bridge.html
+
+So far I haven't gotten it working, but will save progress here when I do.
+
