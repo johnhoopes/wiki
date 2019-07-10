@@ -32,3 +32,7 @@ http://people.apache.org/~amc/tiphares/bridge.html
 
 So far I haven't gotten it working, but will save progress here when I do.
 
+This worked!
+https://github.com/rkok/bridge-mitm-tools
+
+Note that the bridge-reroute requires mac addresses.  Might be able to simplify to just the firewall rules at some point.
