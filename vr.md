@@ -8,3 +8,4 @@
 [Miku Miku Dance - Model editor](/mikumiku)
 [Maya](/Maya)
 [Blender](/blender)
+[Adobe Mixamo](/mixamo) - Looks like it's made for characters.  Not sure how to use in other things.
