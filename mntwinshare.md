@@ -1,5 +1,5 @@
-<!-- TITLE: Mntwinshare -->
-<!-- SUBTITLE: A quick summary of Mntwinshare -->
+<!-- TITLE: Mounting Windows Shares -->
+<!-- SUBTITLE: How to -->
 
 
 ```text
