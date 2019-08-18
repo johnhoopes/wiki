@@ -25,3 +25,10 @@ systemctl daemon-reload
 systemctl enable my-service
 ```
 
+
+# Checking the log
+
+```text
+journalctl --unit my-service --follow
+```
+
