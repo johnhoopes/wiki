@@ -1,5 +1,5 @@
-<!-- TITLE: Mnts 3 -->
-<!-- SUBTITLE: A quick summary of Mnts 3 -->
+<!-- TITLE: Mount S3 -->
+<!-- SUBTITLE: Mounting S3 Drives -->
 
 From: https://tuttlem.github.io
 
