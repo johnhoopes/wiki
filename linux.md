@@ -1,7 +1,7 @@
 <!-- TITLE: Linux -->
 <!-- SUBTITLE: A quick summary of Linux -->
 
-# Persistence
+# Services
 [init.d](/linux-initd)
 [systemctl](/linux-systemctl)
 
