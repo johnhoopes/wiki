@@ -28,4 +28,19 @@ sc.exe config mrxsmb20 start= disabled
 
 https://support.microsoft.com/en-sg/help/2696547/detect-enable-disable-smbv1-smbv2-smbv3-in-windows-and-windows-server
 
+# Mounting a Bitlocker Disk in Linux
+Note to boot into linux on thinkpad had to disable secure boot and allow legacy boot.  Otherwise it sees usb but ignores.
+Supposedly there's a utility to make UEFI linux bootable sticks but  I haven't tried.
+
+```text
+sudo apt-get install gcc cmake make libfuse-dev libmbedtls-dev ruby-dev
+git clone https://github.com/Aorimn/dislocker.git /tmp/dislocker
+
+cd /tmp/dislocker
+cmake .
+make
+sudo make install
+
+dislocker -r -V /dev/sda1 -p315442-000000-000000-000000-000000-000000-000000-000000 -- /media/windows (replace your own bitlocker key and source partition)
+mount -o loop dislocker-file /media/mount
 
