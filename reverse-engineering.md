@@ -9,6 +9,7 @@ Using tools to understand how something works.  Often involving dissassembly or 
 [Finding Important Code Paths](/reverse-engineering-important-code)
 [Changing Behaviors](/reverse-engineering-changing-behaviors)
 [Following Tainted Data](/reverse-engineering-following-taint)
+[hardening-check](/reverse-engineering-hardening-check)
 # Platforms
 The platform of the application can have a large determination on how the reversing will be accomplished:
 * [Windows PE Binary Disassembly](/windowspe-disassembly)
