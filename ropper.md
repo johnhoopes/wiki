@@ -16,3 +16,6 @@ reg -= number/reg/[reg]
 reg *= number/reg/[reg]
 reg /= number/reg/[reg]
 ```
+
+So "eax==1 !ebx" would look for gadges that set eax to 1 and which does not clobber ebx.
+
