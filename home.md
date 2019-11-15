@@ -3,6 +3,7 @@
 
 # Tools
 [Tools](/tools)
+[Exploits](/exploits)
 # Application Security
 [Web](/webapps)
 [Mobile Clients](/mobile)
