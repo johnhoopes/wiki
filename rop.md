@@ -3,6 +3,8 @@
 
 
 # ROP Tools
+[Ropper](/ropper) - https://github.com/sashs/Ropper
+
 # ROP Methods
 [Remap page and jump to shellcode]
 [oldschool execve]
