@@ -6,6 +6,7 @@
 [systemctl](/linux-systemctl)
 
 # Utilities
+[bash](/bash-scripting)
 [sed](/sed)
 [awk](/awk)
 [iconv](/iconv)
