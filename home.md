@@ -21,6 +21,7 @@
 [Powershell](/powershell)
 [General Assembly](/asm)
 [x86 Assembly](/x86-asm)
+[x64 Assembly](/x64-asm)
 [ARM Assembly](/arm-asm)
 [Windows PE](/windows-pe)
 
