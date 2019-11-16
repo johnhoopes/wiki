@@ -12,6 +12,7 @@
 
 # Debugging
 [GDB](/gdb)
+[Peda](/peda)
 [Ollydbg](/ollydbg)
 [IDA](/ida)
 [Ghidra](/ghidra)
