@@ -17,6 +17,7 @@
 
 # Languages - Tips and Notes
 [Python](/python)
+[PHP](/php)
 [Java](/java)
 [.Net](/dotnet)
 [Powershell](/powershell)
