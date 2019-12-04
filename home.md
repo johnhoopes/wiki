@@ -33,6 +33,7 @@
 
 # Topics to Research
 [WPAD](/wpad)
+[UPNP](/upnp)
 [DHCP](/dhcp) - Other DHCP options.  Can you force page loads / SMB Hash disclosure via other DHCP options?
 [CCDC](/ccdc) - Sort of research
 [VR](/vr)
