@@ -8,6 +8,16 @@ Response is xml with urls for icon and service
 # Tool
 found ssdp server somewhere
 
+Changing line 140
+```
+if i['ST'] == headers['st'] or headers['st'] == 'ssdp:all':
+```
+to
+```
+if True or i['ST'] == headers['st'] or headers['st'] == 'ssdp:all':
+```
+makes it respond to everything.
+
 Following implements a simple test device.
 
 ```
