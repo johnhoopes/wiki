@@ -52,3 +52,8 @@ Will it be parsed?
 
 # 302 Redirects get followed?
 
+# WS-Discovery
+Very similar concepts so I'm going to put it here.
+Description of protocol:  http://xml.coverpages.org/WS-Discovery20040217.pdf
+
+https://pypi.org/project/WSDiscovery/
