@@ -43,4 +43,9 @@ sudo make install
 
 dislocker -r -V /dev/sda1 -p315442-000000-000000-000000-000000-000000-000000-000000 -- /media/windows (replace your own bitlocker key and source partition)
 mount -o loop dislocker-file /media/mount
+```
+
+# Windows AD Hacking
+
+https://github.com/mantvydasb/RedTeam-Tactics-and-Techniques/tree/master/offensive-security-experiments/active-directory-kerberos-abuse
 
