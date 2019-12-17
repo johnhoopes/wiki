@@ -13,7 +13,8 @@ The following build instructions mostly worked.
 https://www.evilsocket.net/2016/03/31/how-to-build-your-own-rogue-gsm-bts-for-fun-and-profit/
 
 On 12/17/2019 - I was able to build using the below patch with current pull of yate / yatebts only to discover that they only support bladerf (as of 2018 sometime)
-The version that comes with evilsocket
+The version that comes from https://github.com/security-geeks/evilbts is old and MIGHT work with B210 but it had openssl issues :(
+
 
 
 
