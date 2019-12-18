@@ -33,6 +33,8 @@ svn co http://voip.null.ro/svn/yate/trunk yate
 svn co http://voip.null.ro/svn/yatebts/trunk/ yatebts
 ```
 
+apparently it only works with bladerf 1.0 (as of 12/17/2019)
+
 # OpenBTS
 ```
 ```
