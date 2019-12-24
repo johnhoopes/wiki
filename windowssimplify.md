@@ -10,7 +10,7 @@ Tons of calls have this test/jnz before either int 2e or syscall call.  Figure o
 References:
 https://blog.amossys.fr/windows10_TH2_int2E_mystery.html
 https://reverseengineering.stackexchange.com/questions/19333/what-are-the-difference-syscall-and-int-0x2e-instructions
-
+https://reverseengineering.stackexchange.com/questions/22054/why-address-7ffe0308-always-gets-compared-in-64bit-applications-before-making-a
 
 # Windows Universal Apps
 As of windows 10, apps call a WIN-API dll and then the normal dll.  Series of useless indirection
