@@ -41,3 +41,4 @@
 [CTF](/ctf)
 [Cell Basestation](/bts_work)
 [SDR](/sdr)
+[Windows Simplification](/windowssimplify)
