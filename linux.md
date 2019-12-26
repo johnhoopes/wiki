@@ -16,3 +16,4 @@
 [Allocate a pty](/pty-alloc)
 [Mounting a Windows Share](/mntwinshare)
 [Mounting AWS S3 in Linux](/mnts3)
+[Starting Graphical programs as root](/xheadaches)
