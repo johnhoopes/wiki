@@ -3,6 +3,10 @@
 
 # WPAD - "Can you tell me where the internet is?"
 [wpad](/wpad)
+
+# Current patch checking
+https://docs.microsoft.com/en-us/windows/security/threat-protection/mbsa-removal-and-guidance
+
 # CredSSP Fixing
 Need to make the following key in the registry and add a value.
 HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System\CredSSP\Parameters
@@ -48,4 +52,6 @@ mount -o loop dislocker-file /media/mount
 # Windows AD Hacking
 
 https://github.com/mantvydasb/RedTeam-Tactics-and-Techniques/tree/master/offensive-security-experiments/active-directory-kerberos-abuse
+
+
 
