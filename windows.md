@@ -1,6 +1,14 @@
 <!-- TITLE: Windows -->
 <!-- SUBTITLE: A quick summary of Windows -->
 
+# Speak to me in English please
+Changes windows error messages back to english
+
+```
+C:\> chcp 437
+```
+
+
 # WPAD - "Can you tell me where the internet is?"
 [wpad](/wpad)
 
