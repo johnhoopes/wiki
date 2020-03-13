@@ -8,7 +8,7 @@ Need to add registry entry for where the file should live and What host is catch
 Catcher:
 Log IP and username:password combination
 
-[Password change DLL Source] (/passwordchangedllsource)
+[Password change DLL Source](/passwordchangedllsource)
 
 
 How to install password dll
