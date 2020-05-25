@@ -53,6 +53,7 @@
 [virtualbox](/virtualbox)
 [vmware](/vmware)
 [vagrant](/vagrant)
+[docker](/docker)
 kubernetes
 puppet
 chef
