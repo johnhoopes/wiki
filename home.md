@@ -30,8 +30,10 @@
 
 # Operating Systems - Tips and Notes
 [Linux](/linux)
+
 [Windows](/windows)
 * [Cygwin](/cygwin)
+
 [IOS](/ios)
 
 # Topics to Research
