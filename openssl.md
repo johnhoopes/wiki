@@ -12,3 +12,4 @@
 * Making signed certs
 * Mimicking an existing cert
 * Converting Certs between forms
+[Extracting Certificate and Private Key Files from a .pfx File](/extractfrompfx)
