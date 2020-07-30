@@ -70,5 +70,4 @@ teraform
 [jq](/jq)
 
 # Virtualization
-[vmware](/vmware)
-[virtualbox](/virtbox)
+[virtualbox](/virtbox) (another 
