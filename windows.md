@@ -2,8 +2,8 @@
 <!-- SUBTITLE: A quick summary of Windows -->
 
 # Active Directory Attacks
-[mimikatz](/mimikatz)
-[golden-ticket](/goldenticket)
+[mimikatz](/mimikatz) - Need SYSTEM access on a Domain joined machine
+[golden-ticket](/goldenticket) - Need kerberos hash from DC, and Domain Sid (which should be easy)
 
 # Speak to me in English please
 Changes windows error messages back to english
