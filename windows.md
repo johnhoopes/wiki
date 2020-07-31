@@ -3,7 +3,7 @@
 
 # Active Directory Attacks
 [mimikatz](/mimikatz)
-[golden-ticket](/mimikatz)
+[golden-ticket](/goldenticket)
 
 # Speak to me in English please
 Changes windows error messages back to english
