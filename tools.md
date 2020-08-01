@@ -7,7 +7,7 @@
 
 # Active Directory Tools
 [CrackMapExec](/crackmapexec)
-[ntlmrelayx](/ntlmrelayx)
+[Impacket and ntlmrelayx](/ntlmrelayx)
 [bloodhound](/bloodhound)
 [dementor](/dementor)
 [mitm6](/mitm6)
