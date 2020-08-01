@@ -14,6 +14,7 @@
 [metasploit-mssql_ntlm_stealer](/mssql_ntlm_stealer)
 [ldapsearch](/ldapsearch)
 [DIAMOND-LATHE](/diamond-lathe)
+[SILENTTRINITY](/silent-trinity)
 # Alternative Clients
 [cygwin-tn3270](/tn3270)
 [SQL Squirrel](/sqlsquirrel)
