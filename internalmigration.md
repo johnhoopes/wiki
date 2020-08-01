@@ -4,3 +4,6 @@
 # Tools
 [Bloodhound](/bloodhound)
 [Empire](/empire)
+
+# Techniques
+[kerberoasting](/kerberoasting)
