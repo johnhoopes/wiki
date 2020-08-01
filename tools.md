@@ -1,10 +1,13 @@
 <!-- TITLE: Tools -->
 <!-- SUBTITLE: Lots of Tools I use-->
 
-# Attack
+# Attack Frameworks
 [Metasploit](/metasploit-main)
 [Social Engineering Toolkit](/set)
 
+# Active Directory Tools
+[CrackMapExec](/crackmapexec)
+[ntlmrelayx](/ntlmrelayx)
 # Alternative Clients
 [cygwin-tn3270](/tn3270)
 [SQL Squirrel](/sqlsquirrel)
