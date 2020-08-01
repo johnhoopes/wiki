@@ -20,9 +20,15 @@ C:\> chcp 437
 https://docs.microsoft.com/en-us/windows/security/threat-protection/mbsa-removal-and-guidance
 
 # CredSSP Fixing
+## On Clients that cant connect
 Need to make the following key in the registry and add a value.
 HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System\CredSSP\Parameters
 AllowEncryptionOracle = dword32:00000002
+
+## On Servers that wont let you connect
+```text
+reg add "HKLM\System\CurrentControlSet\Control\Terminal Server\Winstations\RDP-Tcp" /v UserAuthentication /t REG_DWORD /d 0 /f
+```
 
 # SMBv1 Allowance
 
