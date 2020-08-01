@@ -11,6 +11,7 @@
 [dementor](/dementor)
 [mitm6](/mitm6)
 [metasploit-mssql_ntlm_stealer](/mssql_ntlm_stealer)
+[ldapsearch](/ldapsearch)
 # Alternative Clients
 [cygwin-tn3270](/tn3270)
 [SQL Squirrel](/sqlsquirrel)
