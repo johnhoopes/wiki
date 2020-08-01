@@ -9,6 +9,7 @@
 [CrackMapExec](/crackmapexec)
 [ntlmrelayx](/ntlmrelayx)
 [dementor](/dementor)
+[mitm6](/mitm6)
 # Alternative Clients
 [cygwin-tn3270](/tn3270)
 [SQL Squirrel](/sqlsquirrel)
