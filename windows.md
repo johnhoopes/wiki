@@ -19,7 +19,7 @@ C:\> chcp 437
 # Current patch checking
 https://docs.microsoft.com/en-us/windows/security/threat-protection/mbsa-removal-and-guidance
 
-# CredSSP Fixing
+# CredSSP Fixing also NLA (In case that's searched for)
 ## On Clients that cant connect
 Need to make the following key in the registry and add a value.
 HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System\CredSSP\Parameters
