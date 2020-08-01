@@ -25,6 +25,11 @@ Need to make the following key in the registry and add a value.
 HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System\CredSSP\Parameters
 AllowEncryptionOracle = dword32:00000002
 
+```text
+reg version
+reg add "HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\System\CredSSP\Parameters" /v AllowEncryptionOracle /d 2 /f
+```
+
 ## On Servers that wont let you connect
 ```text
 reg add "HKLM\System\CurrentControlSet\Control\Terminal Server\Winstations\RDP-Tcp" /v UserAuthentication /t REG_DWORD /d 0 /f
