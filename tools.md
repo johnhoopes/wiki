@@ -8,7 +8,7 @@
 # Active Directory Tools
 [CrackMapExec](/crackmapexec)
 [ntlmrelayx](/ntlmrelayx)
-[bloodhoune](/bloodhound)
+[bloodhound](/bloodhound)
 [dementor](/dementor)
 [mitm6](/mitm6)
 [metasploit-mssql_ntlm_stealer](/mssql_ntlm_stealer)
