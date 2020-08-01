@@ -12,3 +12,7 @@
 crackmapexec.py smb 192.168.10.0/24 --gen-relay-list targets2
 ```
 
+## Show me the shares on the network
+```
+crackmapexec.py smb hostnames.txt --shares
+```
