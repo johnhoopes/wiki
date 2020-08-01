@@ -8,6 +8,7 @@
 # Active Directory Tools
 [CrackMapExec](/crackmapexec)
 [ntlmrelayx](/ntlmrelayx)
+[dementor](/dementor)
 # Alternative Clients
 [cygwin-tn3270](/tn3270)
 [SQL Squirrel](/sqlsquirrel)
