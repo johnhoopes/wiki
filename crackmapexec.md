@@ -1,6 +1,10 @@
 <!-- TITLE: Crackmapexec -->
 <!-- SUBTITLE: A quick summary of Crackmapexec -->
 
+
+# Wishes
+I wish that this could take advantage of a relayed connection ie instead of -H have a -R option that can do a relay (like an ad hoc ntlmrelay attack).  Although... cme doesn't seem to do much ntlmrelayx can't do... perhaps I should have just had ntlmrelayx run the commands.  Again (like so many tools, would like granular control.
+
 # Common CME Runs
 ## How to execute commands
 ```text
@@ -12,12 +16,3 @@
 crackmapexec.py smb 192.168.10.0/24 --gen-relay-list targets2
 ```
 
-## Show me the shares on the network
-```
-crackmapexec.py smb hostnames.txt --shares
-```
-
-## Get some more secrets
-```
-cme smb TARGET -u Administrator -H <hash> --local-auth --lsa
-```
