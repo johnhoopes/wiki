@@ -35,3 +35,6 @@ run prefetchtool -l
 run post/windows/gather/credential_collector
 
 # MSF RPC Connections
+
+# Site to pull from
+https://www.hackingarticles.in/get-reverse-shell-via-windows-one-liner/
