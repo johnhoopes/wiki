@@ -17,6 +17,7 @@
 [Modems](/modems)
 
 # Languages - Tips and Notes
+[C](/c)
 [Python](/python)
 [PHP](/php)
 [Java](/java)
