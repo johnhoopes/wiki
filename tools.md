@@ -15,6 +15,7 @@
 [ldapsearch](/ldapsearch)
 [DIAMOND-LATHE](/diamond-lathe)
 [SILENTTRINITY](/silent-trinity)
+[spoolsample](/spoolsample)
 # Alternative Clients
 [cygwin-tn3270](/tn3270)
 [SQL Squirrel](/sqlsquirrel)
