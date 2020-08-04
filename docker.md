@@ -45,6 +45,7 @@ docker exec -ti {nameofdocker} bash
 ```
 
 # Interesting Dockers
+## Cobalt Strike
 From https://obscuritylabs.com/blog/2017/12/24/docker-your-command-control-c2/ 
 ```
 git clone https://github.com/killswitch-GUI/CobaltStrike-ToolKit.git
@@ -58,3 +59,6 @@ Run it.  -d makes it run headless -name gives it a name.
 ```
 docker run -d -p 192.168.2.238:50050:50050 --name "war_games" cobaltstrike\cs 192.168.2.238 password
 ```
+
+## Empire
+empireproject/empire
