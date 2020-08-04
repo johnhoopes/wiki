@@ -6,6 +6,7 @@
 [Social Engineering Toolkit](/set)
 
 # Active Directory Tools
+[mimikatz](/mimikatz)
 [CrackMapExec](/crackmapexec)
 [Impacket and ntlmrelayx](/ntlmrelayx)
 [bloodhound](/bloodhound)
