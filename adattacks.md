@@ -5,3 +5,4 @@
 https://www.ired.team/offensive-security-experiments/
 
 # The tools site has a bunch of links that should probably be here
+[The tools AD stuff](/tools#active-directory-tools)
