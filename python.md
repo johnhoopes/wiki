@@ -10,6 +10,7 @@
 [Windows-Debugging-Python](/windows-debugging-python)
 # Useful Modules
 [scapy](/python-scapy)
+[paramiko - SSH for python](/paramiko)
 
 # Things I have to look up
 [File IO](/python-files)
