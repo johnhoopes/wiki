@@ -1,4 +1,4 @@
-<!-- TITLE: Generalnetworktricks -->
+<!-- TITLE: General Network Tricks -->
 <!-- SUBTITLE: A quick summary of Generalnetworktricks -->
 
 # Proxychains
