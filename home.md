@@ -15,7 +15,7 @@
 [Bridging](/bridging)
 [ArpSpoofing](/arpspoofing)
 [Modems](/modems)
-
+[GeneralNetworkTricks](/generalnetworktricks)
 # Languages - Tips and Notes
 [C](/c)
 [Python](/python)
