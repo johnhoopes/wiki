@@ -24,3 +24,10 @@ Class name is net.ucanaccess.jdbc.UcanaccessDriver
 Example URL:   jdbc:ucanaccess:///home/gord/Documents/Database1.accdb;showSchema=true
 (I used it successfully to open an mdb file)
 
+## MSSQL Server
+https://docs.microsoft.com/en-us/sql/connect/jdbc/download-microsoft-jdbc-driver-for-sql-server?view=sql-server-ver15
+
+Put the jar files in 
+c:\program files\squirel\externallibs\
+add c:\program files\squirel\externalibs\<matchyourjre>.jar
+Driver name is com.microsoft.sqlserver.jdbc.SQLServerDriver
