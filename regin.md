@@ -10,3 +10,6 @@ Highlights:
 * 
 # References
 https://en.wikipedia.org/wiki/Regin_(malware)
+
+# Stage 1 - Loader
+the ZeroAccess gang implemented a very similar loading mechanism
