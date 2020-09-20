@@ -76,5 +76,15 @@ mount -o loop dislocker-file /media/mount
 
 https://github.com/mantvydasb/RedTeam-Tactics-and-Techniques/tree/master/offensive-security-experiments/active-directory-kerberos-abuse
 
+# GPO to turn of screen lock
+
+```text
+Edit Group Policies
+Computer Config -> Admin Templates -> System -> Power Management > Video and Display Settings -> Turn off the Display
+Enable, and set time to 0
+
+gpupdate /force
+```
+
 
 
