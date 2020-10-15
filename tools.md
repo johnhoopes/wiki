@@ -64,6 +64,7 @@
 # Virtual Machines and Container Tech
 [virtualbox](/virtualbox)
 [vmware](/vmware)
+[hyper-v](/hyperv)
 [vagrant](/vagrant)
 [docker](/docker)
 kubernetes
