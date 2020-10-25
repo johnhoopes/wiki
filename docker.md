@@ -5,6 +5,12 @@
 ```
 docker ps - what's running now
 ```
+
+# Docker Service
+```
+systemctl start docker.service
+```
+
 # Get an Instance
 ```
 docker pull {dockerpath}
