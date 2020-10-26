@@ -64,3 +64,42 @@ script.load()
 
 input()
 ```
+
+# Highlights of Frida Python
+## Device
+spawn - start a process
+attach - attach to running process
+disable_spawn_gating
+enable_spawn_gating
+enumerate_applications - don't know yet
+enumerate_pending_children
+enumerate_pending_spawn
+enumerate_processes
+get_frontmost_application
+get_process
+icon
+id
+inject_library_blob
+inject_library_file
+input
+kill
+name
+off
+on
+open_channel
+resume
+spawn
+type
+
+## Session
+compile_script - 
+create_script -
+create_script_from_bytes
+detach
+disable_child_gating
+disable_debugger
+enable_child_gating
+enable_debugger
+enable_jit
+off
+on
