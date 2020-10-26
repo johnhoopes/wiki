@@ -86,6 +86,15 @@ Java.perform(function x(){ //Silently fails without the sleep from the python co
 my_activity is one of the java classes.
 fun() is the function to be hooked
 
+# Overloaded Function Hooking
+```
+my_class.fun.overload("int" , "int").implementation = function(x,y){ //hooking the old function
+
+....
+
+my_class.fun.overload("java.lang.String").implementation = function(x){ //hooking the new function
+```
+
 
 # Highlights of Frida Python
 ## Device
