@@ -44,3 +44,23 @@ Using the script to start an app hooked.
 ```
 jhoopes@LAPTOP-H5S9KB5I:~$ frida -U -f com.seic.swp.penntrust -l universal-ssl-check-bypass.js --no-pause
 ```
+
+# Python interfacing with a running process
+```
+import frida
+import time
+device = frida.get_usb_device()
+pid = device.spawn(["com.fugu.baskinrobbins"])
+
+device.resume(pid)
+
+time.sleep(5)
+
+session=device.attach(pid)
+
+script = session.create_script(open("universal-ssl-check-bypass.js").read())
+
+script.load()
+
+input()
+```
