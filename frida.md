@@ -96,6 +96,18 @@ my_class.fun.overload("java.lang.String").implementation = function(x){ //hookin
 ```
 
 
+# JS to Iterate through functions in an activity
+Java.choose("com.example.a11x256.frida_test.my_activity", {
+                onMatch: function (instance) {
+                    console.log("Found instance: " + instance);
+                    instances_array.push(instance)
+                    console.log("Result of secret func: " + instance.secret());
+                },
+                onComplete: function () { }
+
+            });
+						
+
 # Highlights of Frida Python
 ## Device
 spawn - start a process
