@@ -4,3 +4,6 @@
 # Jar Tricks
 [Repackaging](/java-repackaging)
 [Making a hooked class](/java-hooking)
+
+# Maven
+[Maven](/maven) - Making Java Packages from Source
