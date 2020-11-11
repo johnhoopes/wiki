@@ -15,3 +15,11 @@ Using the right click to set up filter
 # USB Sniffing
 [USB Sniffing](/wireshark-usbsniffing)
 [USB Client in Python](/python-usbclient)
+
+# Running wireshark with remote capture
+I think there's a way to do this in the app, but there don't seem to be any videos on it.
+
+```
+ssh root@10.0.0.1 "tcpdump -U -w - 'host 10.0.0.176'" | /cygdrive/c/Program\ Files/Wireshark/Wireshark.exe -k -i -
+```
+
