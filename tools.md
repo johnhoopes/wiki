@@ -52,6 +52,7 @@
 [bettercap](/bettercap)
 # VPN
 [openvpn](/openvpn)
+[tor](/tor)
 # Networking
 [nc](/netcat)
 [nmap](/nmap)
