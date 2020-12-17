@@ -1,4 +1,5 @@
 <!-- TITLE: Mobile Adb -->
 <!-- SUBTITLE: A quick summary of Mobile Adb -->
 
-# Header
+# PS Listing in ADB
+ps -A
