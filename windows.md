@@ -55,6 +55,12 @@ sc.exe config mrxsmb20 start= disabled
 
 https://support.microsoft.com/en-sg/help/2696547/detect-enable-disable-smbv1-smbv2-smbv3-in-windows-and-windows-server
 
+# Mounting a samba share in windows 10
+Doesn't need to be admin (if you do it as admin, regular users can't see it).
+```
+net use \\10.0.0.4\disks /user:test abc
+```
+
 # Mounting a Bitlocker Disk in Linux
 Note to boot into linux on thinkpad had to disable secure boot and allow legacy boot.  Otherwise it sees usb but ignores.
 Supposedly there's a utility to make UEFI linux bootable sticks but  I haven't tried.
