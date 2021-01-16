@@ -57,6 +57,8 @@ https://support.microsoft.com/en-sg/help/2696547/detect-enable-disable-smbv1-smb
 
 # Mounting a samba share in windows 10
 Doesn't need to be admin (if you do it as admin, regular users can't see it).
+neither user nor password need to be valid.
+
 ```
 net use \\10.0.0.4\disks /user:test abc
 ```
