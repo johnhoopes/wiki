@@ -1,6 +1,11 @@
 <!-- TITLE: Powershell -->
 <!-- SUBTITLE: A quick summary of Powershell -->
 
+# Change Execution policy
+```text
+Set-executionPolicy -Scope CurrentUser Unrestricted
+```
+
 # Execute
 ```text
 %COMSPEC% /B /C start powershell.exe -Command $si = New-Object
