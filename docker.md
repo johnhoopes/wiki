@@ -50,6 +50,34 @@ docker logs -f {nameofdocker}
 docker exec -ti {nameofdocker} bash
 ```
 
+# Creating Docker Images
+Need an entrypoint script like:  entrypoint.sh
+```
+#!/bin/ash
+ssh-honeypot -r /ssh-honeypot/ssh-honeypot.rsa -p 22 -u nobody
+echo "SSH Honeypot is Running..."
+exec "$@"
+```
+
+Make a dockerfile
+```
+FROM alpine:latest
+#RUN apk add --no-cache git clang libssh-dev screen gcc musl-dev nano openssl build-base bash openssh geoip curl netcat-openbsd
+RUN apk add --no-cache git clang libssh-dev json-c-dev screen gcc musl-dev nano openssl build-base bash openssh geoip curl netcat-openbsd
+
+RUN git clone https://github.com/droberson/ssh-honeypot.git
+WORKDIR /ssh-honeypot/
+RUN make
+RUN ssh-keygen -t rsa -f ./ssh-honeypot.rsa
+RUN chmod 777 /ssh-honeypot/bin/ssh-honeypot
+RUN mv /ssh-honeypot/bin/ssh-honeypot /bin/ssh-honeypot
+EXPOSE 22
+ADD entrypoint.sh /entrypoint.sh
+RUN chmod 777 /entrypoint.sh
+ENTRYPOINT ["/entrypoint.sh"]
+```
+
+
 # Interesting Dockers
 ## Cobalt Strike
 From https://obscuritylabs.com/blog/2017/12/24/docker-your-command-control-c2/ 
