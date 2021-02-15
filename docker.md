@@ -50,6 +50,11 @@ docker logs -f {nameofdocker}
 docker exec -ti {nameofdocker} bash
 ```
 
+# Connecting it to syslog
+```
+docker run --log-driver syslog --log-opt syslog-address=udp://10.0.0.112:514 alpine echo hello world
+```
+
 # Creating Docker Images
 Need an entrypoint script like:  entrypoint.sh
 ```
