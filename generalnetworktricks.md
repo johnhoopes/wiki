@@ -11,3 +11,9 @@ socks5 localhost 12345
 
 $proxychains bash
 $anything in that bash session is proxied
+
+# Funky addressing
+May be able to use this on AWS/GCP/Azure tests
+```
+::ffff:127.0.0.1
+```
