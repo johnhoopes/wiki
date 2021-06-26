@@ -23,4 +23,14 @@ Ideally this goes to syscalls instead of lib redirections.
 Write a new dll loader 
 
 # Questions?
+Static setups in _DLLMAIN - Flattened DLL's will need it and can't conflict.
 Is there anything similar at the kernel level?
+
+# Plan on How to do it?
+Change Executables to call my version of flattened dll's.
+
+1.  Pick Executable
+2.  List it's DLL's
+3.  Make V2 of the DLL's in my searchpath.
+4.  Start Flatening.
+5. Benchmarking.  Will speed be noticeable until it's something big?
