@@ -8,6 +8,7 @@
 [Custom Network Client from Pcap](/python-customnetworkclient)
 [USB Client in Python](/python-usbclient)
 [Windows-Debugging-Python](/windows-debugging-python)
+[ipython](/ipython)
 # Useful Modules
 [scapy](/python-scapy)
 [paramiko - SSH for python](/paramiko)
