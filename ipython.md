@@ -6,5 +6,6 @@
 ```text
 dir(objectname)
 vars(objectname)
+help(objectname)
 
 ```
