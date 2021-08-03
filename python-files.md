@@ -29,8 +29,8 @@ for x in f:
     print(x) 
 ```
 	
-	# Write to a file
-	```text
+# Write to a file
+```
 file1 = open('myfile.txt', 'w')
 file1.write(stuff)
 file1.close()
