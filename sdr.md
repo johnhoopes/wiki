@@ -32,4 +32,6 @@ Notes in [Basestation stuff](/bts_work)
 * Remote control spoofing
 * 802.11 board modification for arbitrary packet sending?
 * RFID Cards (sniff, query, spoof)
+* Waterfall picture transmission / reception
+* The autodecoder software, don't remember name.
 * 
