@@ -14,7 +14,7 @@ Notes in [Basestation stuff](/bts_work)
 [Ham Projects that don't use SDR on another page](/ham_projects)
 
 * FM Radio
-* Remote sensing (RTL-TCP etc).
+* Remote sensing (RTL-TCP etc).  Packets over UDP/TCP
 * Pager
 * APRS (AX.25)
 * Decode CW
