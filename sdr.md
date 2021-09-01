@@ -34,4 +34,4 @@ Notes in [Basestation stuff](/bts_work)
 * RFID Cards (sniff, query, spoof)
 * Waterfall picture transmission / reception
 * The autodecoder software, don't remember name.
-* Collect a Gnu Radio Tutorial or possibly make one.
+* [Gnu Radio Tutorials](/gnu_radio_tutorials)
