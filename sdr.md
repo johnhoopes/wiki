@@ -25,7 +25,7 @@ Notes in [Basestation stuff](/bts_work)
 * Look at waves from antenna on oscope (attenuated)
 * Directional?
 * P.25?
-* DMR
+* [DMR](/dmr)
 * Interface SDR with Ham Radios (HT and HF)
 * Use attenuated Optical link to decode IR signals?
 * IR Spoofing
