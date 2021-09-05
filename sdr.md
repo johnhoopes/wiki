@@ -10,6 +10,9 @@ Notes in [Basestation stuff](/bts_work)
 # RTL-SDR
 [RTL-SDR](/rtl-sdr)
 
+# HackRF
+[hackrf](/hackrf)
+
 # Potential Project List
 [Ham Projects that don't use SDR on another page](/ham_projects)
 
