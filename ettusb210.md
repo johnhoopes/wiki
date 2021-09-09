@@ -5,3 +5,4 @@
 http://www.taylorkillian.com/2013/08/sdr-showdown-hackrf-vs-bladerf-vs-usrp.html
 
 # UHD Installation
+Notes in [Basestation stuff](/bts_work)
