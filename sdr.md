@@ -38,7 +38,7 @@
 * FM Radio
 * Remote sensing (RTL-TCP etc).  Packets over UDP/TCP
 * Pager
-* Garage door record, replay
+* [Garage door replay]
 * Neighbor garage door record / replay
 * FOB replay
 * APRS (AX.25)
