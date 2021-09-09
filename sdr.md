@@ -40,9 +40,6 @@
 * [RTL-433](/rtl-433)
 * The autodecoder software, don't remember name (might already be in list)
 
-# B210 Information
-http://www.taylorkillian.com/2013/08/sdr-showdown-hackrf-vs-bladerf-vs-usrp.html
-
 # UHD Installation
 Notes in [Basestation stuff](/bts_work)
 
