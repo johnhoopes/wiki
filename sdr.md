@@ -62,6 +62,7 @@
 * GSM Basestation
 * LTE Basestation
 * 5G
+* IMSI Catcher
 * GPS spoofing
 
 # Software
@@ -70,10 +71,13 @@
 * [Universal Radio Hacker](/universal_radio_hacker)
 * [RTL-433](/rtl-433)
 * The autodecoder software, don't remember name (might already be in list)
+* Audacity
 
 # Useful Websites
 FCC Database Helper Site - https://fccid.io/
-
+HAM License Database - 
+DMR Lookup Database - 
+Colorado Radio - 
 
 
 
