@@ -38,8 +38,7 @@
 * FM Radio
 * Remote sensing (RTL-TCP etc).  Packets over UDP/TCP
 * Pager
-* [Garage door replay]
-* Neighbor garage door record / replay
+* [Garage door replay](/sdr-garagedoor)
 * FOB replay
 * APRS (AX.25)
 * Decode CW
