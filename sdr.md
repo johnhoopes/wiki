@@ -43,6 +43,7 @@
 * GSM Basestation
 * LTE Basestation
 * 5G
+* GPS spoofing
 
 # Software
 * [Universal Radio Hacker](/universal_radio_hacker)
