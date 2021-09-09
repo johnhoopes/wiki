@@ -9,3 +9,5 @@ hackrf_transfer -t 390_data.raw -f 390000000
 
 #From Samy Kamkar - Appsec California 2016
 ```
+
+#De Bruijn Code (brute every code with overlaps)
