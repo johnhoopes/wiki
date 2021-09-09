@@ -2,8 +2,10 @@
 <!-- SUBTITLE: A quick summary of Sdr -->
 
 # Devices
-## [B210](/ettus_b210)
+## Ettus USRP B210
+[B210](/ettus_b210)
  - Full Duplex
+ - 
 ## RTL-SDR
 ## HackRF
  - Half Duplex  20Mhz Sample Rate
