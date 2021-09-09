@@ -5,13 +5,33 @@
 ## Ettus USRP B210
 [B210](/ettus_b210)
  - Full Duplex
- - 
+ - 70 Mhz - 6 Ghz
+ - USB 3.0
+ - 61 Msps quadrature 
+ - 56 Mhz RF Bandwidth
+ - Full Duplex Operation
+ - 12 bit samples (maybe)
 ## RTL-SDR
 [RTL-SDR](/rtl-sdr)
+- Frequencies Vary - http://rtl-sdr.com/about-rtl-sdr/
+- 22-2200Mhz depending on which chip is present
+- max sustainable sample rate 2.56 MS/s
+- 8 bit samples but real sensitivity is about 7bit
+- 
 ## HackRF
 [hackrf](/hackrf)
- - Half Duplex  20Mhz Sample Rate
-
+- 1 MHZ - 6 Ghz
+ - Half Duplex  
+ - 20Mhz Sample Rate
+ - 8-bit samples
+ - Usb 2.0
+## BladeRF
+- 300Mhz - 3.8 Ghz
+- 12bit Sample
+- 40 Msps
+- 16bit dac (transmission accuracy?)
+- Usb 3.0
+-
 # Projects
 [Ham Projects that don't use SDR on another page](/ham_projects)
 
