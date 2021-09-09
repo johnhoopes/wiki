@@ -32,6 +32,8 @@
 - 16bit dac (transmission accuracy?)
 - Usb 3.0
 -
+## Yard Stick One
+- Different than SDR (same chip as IM-ME)
 # Projects
 [Ham Projects that don't use SDR on another page](/ham_projects)
 
@@ -72,6 +74,7 @@
 * [RTL-433](/rtl-433)
 * The autodecoder software, don't remember name (might already be in list)
 * Audacity
+* RFCat
 
 # Useful Websites
 FCC Database Helper Site - https://fccid.io/
