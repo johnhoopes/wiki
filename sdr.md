@@ -7,9 +7,14 @@
  - Full Duplex
  - 
 ## RTL-SDR
+[RTL-SDR](/rtl-sdr)
 ## HackRF
+[hackrf](/hackrf)
  - Half Duplex  20Mhz Sample Rate
+
 # Projects
+[Ham Projects that don't use SDR on another page](/ham_projects)
+
 * FM Radio
 * Remote sensing (RTL-TCP etc).  Packets over UDP/TCP
 * Pager
@@ -40,15 +45,6 @@
 * [RTL-433](/rtl-433)
 * The autodecoder software, don't remember name (might already be in list)
 
-# UHD Installation
-Notes in [Basestation stuff](/bts_work)
 
-# RTL-SDR
-[RTL-SDR](/rtl-sdr)
 
-# HackRF
-[hackrf](/hackrf)
-
-# Potential Project List
-[Ham Projects that don't use SDR on another page](/ham_projects)
 
