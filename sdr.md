@@ -19,6 +19,9 @@ Notes in [Basestation stuff](/bts_work)
 * FM Radio
 * Remote sensing (RTL-TCP etc).  Packets over UDP/TCP
 * Pager
+* Garage door record, replay
+* Neighbor garage door record / replay
+* FOB replay
 * APRS (AX.25)
 * Decode CW
 * Make an Oscilator Circuit
@@ -38,3 +41,5 @@ Notes in [Basestation stuff](/bts_work)
 * Waterfall picture transmission / reception
 * The autodecoder software, don't remember name.
 * [Gnu Radio Tutorials](/gnu_radio_tutorials)
+* Universal Radio Hacker
+* [RTL-433](/rtl-433)
