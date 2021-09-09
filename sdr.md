@@ -41,5 +41,5 @@ Notes in [Basestation stuff](/bts_work)
 * Waterfall picture transmission / reception
 * The autodecoder software, don't remember name.
 * [Gnu Radio Tutorials](/gnu_radio_tutorials)
-* Universal Radio Hacker
+* [Universal Radio Hacker](/universal_radio_hacker)
 * [RTL-433](/rtl-433)
