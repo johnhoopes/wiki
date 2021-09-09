@@ -1,21 +1,13 @@
 <!-- TITLE: Sdr -->
 <!-- SUBTITLE: A quick summary of Sdr -->
 
-# B210 Information
-http://www.taylorkillian.com/2013/08/sdr-showdown-hackrf-vs-bladerf-vs-usrp.html
-
-# UHD Installation
-Notes in [Basestation stuff](/bts_work)
-
-# RTL-SDR
-[RTL-SDR](/rtl-sdr)
-
-# HackRF
-[hackrf](/hackrf)
-
-# Potential Project List
-[Ham Projects that don't use SDR on another page](/ham_projects)
-
+# Devices
+## [B210](/ettus_b210)
+ - Full Duplex
+## RTL-SDR
+## HackRF
+ - Half Duplex  20Mhz Sample Rate
+# Projects
 * FM Radio
 * Remote sensing (RTL-TCP etc).  Packets over UDP/TCP
 * Pager
@@ -39,7 +31,25 @@ Notes in [Basestation stuff](/bts_work)
 * 802.11 board modification for arbitrary packet sending?
 * RFID Cards (sniff, query, spoof)
 * Waterfall picture transmission / reception
-* The autodecoder software, don't remember name.
 * [Gnu Radio Tutorials](/gnu_radio_tutorials)
+
+# Software
 * [Universal Radio Hacker](/universal_radio_hacker)
 * [RTL-433](/rtl-433)
+* The autodecoder software, don't remember name (might already be in list)
+
+# B210 Information
+http://www.taylorkillian.com/2013/08/sdr-showdown-hackrf-vs-bladerf-vs-usrp.html
+
+# UHD Installation
+Notes in [Basestation stuff](/bts_work)
+
+# RTL-SDR
+[RTL-SDR](/rtl-sdr)
+
+# HackRF
+[hackrf](/hackrf)
+
+# Potential Project List
+[Ham Projects that don't use SDR on another page](/ham_projects)
+
