@@ -1,4 +1,4 @@
-<!-- TITLE: Sdr Garagedoor -->
+<!-- TITLE: SDR Garage Door -->
 <!-- SUBTITLE: A quick summary of Sdr Garagedoor -->
 
 # HackRF Commands
