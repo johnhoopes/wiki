@@ -37,6 +37,12 @@
 # Projects
 [Ham Projects that don't use SDR on another page](/ham_projects)
 
+* Make an Oscilator Circuit
+* Watch it on oscope
+* Add diode to make half wave oscilator
+* Make another oscilator and mix them and watch
+* Raspi Oscilator
+* Raspi FM Radio
 * FM Radio
 * Remote sensing (RTL-TCP etc).  Packets over UDP/TCP
 * Pager
@@ -44,9 +50,6 @@
 * FOB replay
 * APRS (AX.25)
 * Decode CW
-* Make an Oscilator Circuit
-* Watch it on oscope
-* Make another oscilator and mix them and watch
 * Learn Attenuation
 * Look at waves from antenna on oscope (attenuated)
 * Directional?
