@@ -11,3 +11,6 @@ Timing:
 ![Waveforms Tim 49](/uploads/555-timer/waveforms-tim-49.gif "Waveforms Tim 49")
 On time T1
 Off time T2
+
+# 50% Oscilator (equal on and off)
+![Waveforms Tim 58 A](/uploads/555-timer/waveforms-tim-58-a.gif "Waveforms Tim 58 A")
