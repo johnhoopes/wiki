@@ -37,7 +37,7 @@
 # Projects
 [Ham Projects that don't use SDR on another page](/ham_projects)
 
-* Make an Oscilator Circuit
+* Make an Oscilator Circuit - [555 timer](/555timer)
 * Watch it on oscope
 * Add diode to make half wave oscilator
 * Make another oscilator and mix them and watch
