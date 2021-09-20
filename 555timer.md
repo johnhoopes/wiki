@@ -20,4 +20,5 @@ Off time T2
 # Lessons learned.
 1.  Long breadboards aren't fully connected.  Have to bridge power and ground from top to bottom for bottom to work.
 2.  555 timers need at least 4.5 volts.  the output is about 2 volts below what came in.
+3.  572*10^-6 is about 1.75kHz... Very audible on a headphone.
 ![Image Of Finished Waveform](/uploads/image-of-finished-waveform.png "Image Of Finished Waveform")
