@@ -14,3 +14,9 @@ Off time T2
 
 # 50% Oscilator (equal on and off)
 ![Waveforms Tim 58 A](/uploads/555-timer/waveforms-tim-58-a.gif "Waveforms Tim 58 A")
+
+
+
+# Lessons learned.
+1.  Long breadboards aren't fully connected.  Have to bridge power and ground from top to bottom for bottom to work.
+2.  555 timers need at least 4.5 volts.  the output is about 2 volts below what came in.
