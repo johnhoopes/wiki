@@ -37,9 +37,10 @@
 # Projects
 [Ham Projects that don't use SDR on another page](/ham_projects)
 
-* Make an Oscilator Circuit - [555 timer](/555timer)
-* Watch it on oscope
-* Add diode to make half wave oscilator
+* (DONE) Make an Oscilator Circuit - [555 timer](/555timer)
+* (DONE) Watch it on oscope/Logic Analyzer
+* (DONE) Listen to it with headphones / speaker
+* Add diode to make half wave oscilator (it oscilated between 0 and 2 volts... can't do halfwave)
 * Make another oscilator and mix them and watch
 * Raspi Oscilator
 * Raspi FM Radio
