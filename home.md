@@ -4,6 +4,7 @@
 # Tools
 [Tools](/tools)
 [Exploits](/exploits)
+[Blogs](/blogs)
 # Application Security
 [Web](/webapps)
 [Mobile Clients](/mobile)
