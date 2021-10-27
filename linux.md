@@ -4,6 +4,7 @@
 # Services
 [init.d](/linux-initd)
 [systemctl](/linux-systemctl)
+[zfs](/zfs)
 
 # Utilities
 [bash](/bash-scripting)
