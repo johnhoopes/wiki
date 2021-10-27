@@ -16,6 +16,7 @@
 # IOS
 [Accessing IPA File on Device](/mobile-ios-ipa)
 [Exploring IOS Device Backup](/mobile-ios-backup)
+[Jailbreaking with CheckRa1n](/checkrain)
 
 # Both
 [Frida](/frida)
