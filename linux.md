@@ -5,6 +5,7 @@
 [init.d](/linux-initd)
 [systemctl](/linux-systemctl)
 [zfs](/zfs)
+[smb](/smb)
 
 # Utilities
 [bash](/bash-scripting)
