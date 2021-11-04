@@ -9,5 +9,5 @@
 
 And data lives in 
 ```
-/private/var/containers/Bundle/Application/Data
+/private/var/mobile/Containers/Data/Application
 ```
