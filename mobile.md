@@ -5,6 +5,7 @@
 [ADB Commands](/mobile-adb)
 [Pulling APK from Device](/mobile-fetching-apk)
 [Extracting APK](/mobile-extracting-apks)
+[Installing an aab file](/installing_aab_android)
 [dex2jar](/mobile-dex2jar)
 [Modification of APK](/mobile-apk-modification)
 [Debugging](/mobile/android-debugging)
