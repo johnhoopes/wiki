@@ -18,3 +18,5 @@ java -jar bundletool-all-1.8.2.jar build-apks --bundle=aab_to_convert.aab --outp
 ```
 java -jar bundletool.jar install-apks --apks=aab_to_convert.apks
 ```
+
+Note that it didn't appear on the desktop like a normal installation, but was in the list of apps.
