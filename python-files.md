@@ -22,6 +22,11 @@ print(f.read(5))
 print(f.readline()) 
 ```
 
+# Read all lines into an object
+```
+arr = f.readlines()
+```
+
 # Loop through by line
 ```
 f = open("demofile.txt", "r")
