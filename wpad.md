@@ -4,6 +4,10 @@
 # DNS
 # WINS
 # NMB
+# Windows Command to show proxy
+```
+netsh winhttp show proxy
+```
 # DHCP Response
 Per Cisco site (https://www.cisco.com/c/en/us/td/docs/security/web_security/connector/connector2972A/WPADAP.html):  
 A browser that supports both methods will check the DHCP assignment first, before attempting the DNS method.
