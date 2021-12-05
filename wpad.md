@@ -72,6 +72,14 @@ httpd.serve_forever()
 
 ```
 
+# Configuring apache to use php for .dat files
+The following goes in php7.x.conf (note that php has to be enabled).
+```
+<FilesMatch ".+\.dat$">
+  SetHandler application/x-httpd-php
+</FilesMatch>
+```
+
 # Hash Collection using WPAD
 responder does this.  Should upgrade python server to only request it once per machine.  Once I've got it, don't require it.  Also research which processes will provide it.  Windows Update?  Adobe?
 
