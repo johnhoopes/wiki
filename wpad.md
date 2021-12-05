@@ -72,6 +72,13 @@ httpd.serve_forever()
 
 ```
 
+# PHP to set content-type
+```
+<?PHP
+  header('Content-Type: application/x-ns-proxy-autoconfig');
+?>
+```
+
 # Configuring apache to use php for .dat files
 The following goes in php7.x.conf (note that php has to be enabled).
 ```
