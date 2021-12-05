@@ -17,6 +17,24 @@ A DHCP server must be configured to serve an additional setting in an IP address
 A Web browser implementing this method sends the DHCP server a DHCPINFORM query, the DHCP server will return the expected IP settings along with the 252 option which defines the location of the PAC file. The browser will then download this PAC file from the URL provided. 
 
 Can DHCP Response be sent unsolicited?
+
+# isc-dhcp-server
+How to configure isc-dhcp-server to send option...
+
+```
+option local-proxy-config code 252 = text;
+
+subnet 1.1.1.0 netmask 255.255.255.0 {
+  range 1.1.1.128 1.1.1.254;
+  option domain-name-servers 1.1.1.1;
+  option domain-name "wb.local";
+  option subnet-mask 255.255.255.0;
+  default-lease-time 600;
+  max-lease-time 7200;
+  option local-proxy-config "http://1.1.1.1/wpad_dhcp.dat";
+}
+```
+
 # Example Response
 
 ```text
