@@ -29,6 +29,7 @@
 [x64 Assembly](/x64-asm)
 [ARM Assembly](/arm-asm)
 [Windows PE](/windows-pe)
+[Angular](/angular)
 
 # Operating Systems - Tips and Notes
 [Linux](/linux)
