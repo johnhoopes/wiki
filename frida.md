@@ -146,3 +146,15 @@ enable_debugger
 enable_jit
 off
 on
+
+
+# IOS
+Install Frida on IOS device using Cydia
+
+
+# IOS Handler
+Makes .js handlers in a _ _handler_ _ directory which can be used to log arguments of function calls.  Also shows what names could be hooked. 
+
+```frida -A -p <pid> -i "*"```
+
+Get lots of onEnter and onLeave that can be used to log arguments.  Not sure if arguments can be changed or if the call of the function could be cancelled.
