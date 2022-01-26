@@ -39,3 +39,12 @@ $ python3 dump.py -H 10.0.0.173 -u root -P HateApple! 'PackageName' -p 22
 For some reason the -L (to list packages) only worked when device was connected to USB.
 
 
+# frida-trace
+```
+frida-trace -U -F  (trace the foreground process)
+```
+
+Hook the MMEMethods
+```
+frida-trace -U -F -m +[MMEMethods *] 
+```
