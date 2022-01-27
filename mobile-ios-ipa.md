@@ -38,6 +38,14 @@ $ python3 dump.py -H 10.0.0.173 -u root -P HateApple! 'PackageName' -p 22
 
 For some reason the -L (to list packages) only worked when device was connected to USB.
 
+# Installing IPA without store
+I was able to open ipa (zip), take .app directory.  Copy it to phone using scp.  mv .app directory to /Applications and respring
+
+
+# Respring
+```
+sbreload
+```
 
 # frida-trace
 ```
