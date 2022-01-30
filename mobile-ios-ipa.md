@@ -54,5 +54,5 @@ frida-trace -U -F  (trace the foreground process)
 
 Hook the MMEMethods
 ```
-frida-trace -U -F -m +[MMEMethods *] 
+frida-trace -U -F -m '+[MMEMethods *]' 
 ```
