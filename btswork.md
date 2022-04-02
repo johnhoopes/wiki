@@ -51,3 +51,10 @@ sudo apt-get install libboost-all-dev libusb-1.0-0-dev python-mako doxygen pytho
 git clone git://github.com/EttusResearch/uhd.git
 ```
 
+# Docker that actually worked
+```
+https://hub.docker.com/r/m1mbert/openbts-xenial
+I built it and started it.  No push/pull.
+Note that as of 04/02/2022 I haven't actually connected B210 but it's on the list
+```
+
