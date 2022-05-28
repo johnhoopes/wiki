@@ -9,5 +9,5 @@ s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 s.connect(("www.python.org", 80))
 
 s.sendall(stuff)
-s.read(stuff)
+stuff = s.recv(1024)
 ```
