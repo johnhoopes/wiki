@@ -51,7 +51,7 @@
 [Windows Simplification](/windowssimplify)
 [ShellCatcher - something that stays up and brokers inbound connections for later use](/shellcatcher)
 [MalwareAnalysis](/malware)
-
+[DNS_stager](/dns_stager)
 
 # Personal (not secret just not tech)
 [Vacation](/vacation)
