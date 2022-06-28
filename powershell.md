@@ -1,6 +1,11 @@
 <!-- TITLE: Powershell -->
 <!-- SUBTITLE: A quick summary of Powershell -->
 
+# Get Help
+``text
+get-help Get-EventLog -ShowWindow
+```
+
 # Change Execution policy
 ```text
 Set-executionPolicy -Scope CurrentUser Unrestricted
