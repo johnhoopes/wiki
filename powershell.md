@@ -2,7 +2,7 @@
 <!-- SUBTITLE: A quick summary of Powershell -->
 
 # Get Help
-``text
+```text
 get-help Get-EventLog -ShowWindow
 ```
 
