@@ -1,5 +1,5 @@
-<!-- TITLE: Linuxintrenaming -->
-<!-- SUBTITLE: A quick summary of Linuxintrenaming -->
+<!-- TITLE: Linux Interface Renaming -->
+<!-- SUBTITLE: Preventing Linux from renaming interfaces -->
 
 # Preventing Linux from renaming interfaces
 in /etc/default/grub
