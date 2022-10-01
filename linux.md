@@ -19,3 +19,4 @@
 [Mounting a Windows Share](/mntwinshare)
 [Mounting AWS S3 in Linux](/mnts3)
 [Starting Graphical programs as root](/xheadaches)
+[Preventing Interface Renaming](/linux_int_renaming)
