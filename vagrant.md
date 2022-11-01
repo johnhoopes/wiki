@@ -1,6 +1,12 @@
-<!-- TITLE: Vagrant -->
-<!-- SUBTITLE: A quick summary of Vagrant -->
-
+---
+title: Vagrant
+description: A quick summary of Vagrant
+published: true
+date: 2022-11-01T04:23:48.272Z
+tags: 
+editor: markdown
+dateCreated: 2022-10-01T21:28:19.321Z
+---
 
 https://www.engineyard.com/blog/building-a-vagrant-box
 # Kali
@@ -21,3 +27,9 @@ Vagrant.configure("2") do |config|
 	end
 end
 ```
+
+# Commands
+vagrant up - Starts the machines based on vagrantfile
+vagrant status - Check the status
+vagrant halt - will stop all the vms
+vagrant destroy - Destroy the machines and delete disks
