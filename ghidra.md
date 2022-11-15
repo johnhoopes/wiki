@@ -2,7 +2,7 @@
 title: Ghidra
 description: A quick summary of Ghidra
 published: true
-date: 2022-11-15T05:17:10.650Z
+date: 2022-11-15T05:18:44.865Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-01T21:19:39.457Z
@@ -47,3 +47,4 @@ while block:
     block = blocks.next()
     print
 ```
+## 
