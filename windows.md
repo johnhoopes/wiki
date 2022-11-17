@@ -1,9 +1,18 @@
-<!-- TITLE: Windows -->
-<!-- SUBTITLE: A quick summary of Windows -->
+---
+title: Windows
+description: A quick summary of Windows
+published: true
+date: 2022-11-17T17:43:21.808Z
+tags: 
+editor: markdown
+dateCreated: 2022-10-01T21:29:03.176Z
+---
 
 # Active Directory Attacks
 [mimikatz](/mimikatz) - Need SYSTEM access on a Domain joined machine
 [golden-ticket](/goldenticket) - Need kerberos hash from DC, and Domain Sid (which should be easy)
+
+[windows-attack-articles](/windows-attack-articles) - to read someday
 
 # Speak to me in English please
 Changes windows error messages back to english
