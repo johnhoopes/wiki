@@ -1,5 +1,12 @@
-<!-- TITLE: Tilver's Musings -->
-<!-- SUBTITLE: A Way for Tilver to Organize his thoughts -->
+---
+title: Tilver's Musings
+description: A Way for Tilver to Organize his thoughts
+published: true
+date: 2022-11-25T18:53:46.952Z
+tags: 
+editor: markdown
+dateCreated: 2022-10-01T21:20:18.291Z
+---
 
 # Tools
 [Tools](/tools)
@@ -11,6 +18,7 @@
 [Thick Clients](/thick-clients)
 
 # Network Security
+[Cloud](/cloudprovider)
 [Internal Migration](/internalmigration)
 [Wireless](/wireless)
 [Bridging](/bridging)
@@ -52,6 +60,7 @@
 [ShellCatcher - something that stays up and brokers inbound connections for later use](/shellcatcher)
 [MalwareAnalysis](/malware)
 [DNS_stager](/dns_stager)
+[Fuzzing](/fuzzing)
 
 # Personal (not secret just not tech)
 [Vacation](/vacation)
