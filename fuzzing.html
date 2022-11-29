@@ -2,7 +2,7 @@
 title: Fuzzing
 description: Notes on Fuzzing Research
 published: true
-date: 2022-11-28T17:10:16.086Z
+date: 2022-11-29T05:48:24.714Z
 tags: 
 editor: ckeditor
 dateCreated: 2022-11-28T06:48:05.014Z
@@ -19,12 +19,15 @@ dateCreated: 2022-11-28T06:48:05.014Z
 <p>&nbsp;</p>
 <p>Remote GDB -&nbsp;</p>
 <ul>
-  <li>&nbsp;- What does it take to make a gdb server?</li>
+  <li>- What does it take to make a gdb server?</li>
 </ul>
 <p>&nbsp;</p>
 <p>Crash Detection</p>
 <ul>
-  <li>&nbsp; Non-responsive</li>
-  <li>&nbsp;Exceptions</li>
-  <li>&nbsp;Other?</li>
+  <li>Non-responsive</li>
+  <li>Exceptions</li>
+  <li>Other?</li>
 </ul>
+<p>Questions:</p>
+<p>How to fuzz network daemon. &nbsp;I can find read and change value read. &nbsp;How to set state to something valid before continuing. &nbsp;In case of tcpserver, it's going to try to write a response back. &nbsp;Is that the right place to terminate execution?</p>
+<p>&nbsp;</p>
