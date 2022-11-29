@@ -2,7 +2,7 @@
 title: Tilver's Musings
 description: A Way for Tilver to Organize his thoughts
 published: true
-date: 2022-11-25T18:53:46.952Z
+date: 2022-11-29T05:23:59.629Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-01T21:20:18.291Z
@@ -26,7 +26,7 @@ dateCreated: 2022-10-01T21:20:18.291Z
 [Modems](/modems)
 [General Network Tricks](/generalnetworktricks)
 # Languages - Tips and Notes
-[C](/c)
+[C](/clanguage)
 [Python](/python)
 [PHP](/php)
 [Java](/java)
