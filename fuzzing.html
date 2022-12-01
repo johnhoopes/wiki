@@ -2,7 +2,7 @@
 title: Fuzzing
 description: Notes on Fuzzing Research
 published: true
-date: 2022-11-29T05:48:24.714Z
+date: 2022-12-01T18:46:32.006Z
 tags: 
 editor: ckeditor
 dateCreated: 2022-11-28T06:48:05.014Z
@@ -30,4 +30,16 @@ dateCreated: 2022-11-28T06:48:05.014Z
 </ul>
 <p>Questions:</p>
 <p>How to fuzz network daemon. &nbsp;I can find read and change value read. &nbsp;How to set state to something valid before continuing. &nbsp;In case of tcpserver, it's going to try to write a response back. &nbsp;Is that the right place to terminate execution?</p>
+<p>&nbsp;</p>
+<p>Scenario:</p>
+<p>Echo demon</p>
+<p>connect from client with nc</p>
+<p>work out a way to break on the read</p>
+<p>what structures need to be in place to fuzz from that point?</p>
+<p>&nbsp; - likely the network structure needs to stay in place</p>
+<p>&nbsp; - possibly just the socket number (interesting to change it :) )</p>
+<p>How to go back and fake that a packet came in?</p>
+<p>&nbsp;- New thread?</p>
+<p>&nbsp;- Manipulate context of existing thread?</p>
+<p>What about forking?</p>
 <p>&nbsp;</p>
