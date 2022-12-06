@@ -1,5 +1,12 @@
-<!-- TITLE: Sdr -->
-<!-- SUBTITLE: A quick summary of Sdr -->
+---
+title: Sdr
+description: A quick summary of Sdr
+published: true
+date: 2022-12-06T18:26:42.478Z
+tags: 
+editor: markdown
+dateCreated: 2022-10-01T21:26:50.822Z
+---
 
 # Devices
 ## Ettus USRP B210
@@ -44,8 +51,8 @@
 * Make another oscilator and mix them and watch
 * Raspi Oscilator
 * Raspi FM Radio
-* FM Radio
-* Remote sensing (RTL-TCP etc).  Packets over UDP/TCP
+* (DONE) FM Radio
+* (DONE) Remote sensing (RTL-TCP etc).  Packets over UDP/TCP
 * Pager
 * [Garage door replay](/sdr-garagedoor)
 * FOB replay
@@ -57,13 +64,17 @@
 * P.25?
 * [DMR](/dmr)
 * Interface SDR with Ham Radios (HT and HF)
-* Use attenuated Optical link to decode IR signals?
-* IR Spoofing
-* Remote control spoofing
+* (DONE) IR Spoofing (flipper)
+* (DONE) Remote control spoofing (flipper)
 * 802.11 board modification for arbitrary packet sending?
-* RFID Cards (sniff, query, spoof)
-* Waterfall picture transmission / reception
+* (DONE) - RFID Cards (sniff, query, spoof)
+* Waterfall picture transmission / reception (from CTF stuff)
 * [Gnu Radio Tutorials](/gnu_radio_tutorials)
+* Collect various coax connectors.  
+* VNA Calibration
+* SWR Measurement (with the VNA)
+* Label All Antennas after analysis
+* Antenna Tuning
 * Ham-it-Up
 * GSM Basestation
 * LTE Basestation
