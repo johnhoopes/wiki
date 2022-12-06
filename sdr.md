@@ -2,7 +2,7 @@
 title: Sdr
 description: A quick summary of Sdr
 published: true
-date: 2022-12-06T18:26:42.478Z
+date: 2022-12-06T18:27:12.152Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-01T21:26:50.822Z
@@ -81,6 +81,7 @@ dateCreated: 2022-10-01T21:26:50.822Z
 * 5G
 * IMSI Catcher
 * GPS spoofing
+* Travel Packaging... Foam?  Box?
 
 # Software
 * [GnuRadio](/gnuradio)
