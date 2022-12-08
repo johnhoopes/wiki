@@ -2,7 +2,7 @@
 title: Fuzzing
 description: Notes on Fuzzing Research
 published: true
-date: 2022-12-08T18:32:46.049Z
+date: 2022-12-08T21:47:37.436Z
 tags: 
 editor: markdown
 dateCreated: 2022-11-28T06:48:05.014Z
@@ -15,7 +15,10 @@ Jared Demott - EFS (Exploratory Fuzzing)
 # Tools
 Sidewinder  from whom?
  - https://www.blackhat.com/presentations/bh-usa-06/BH-US-06-Embleton.pdfhttps://www.blackhat.com/presentations/bh-usa-06/BH-US-06-Embleton.pdf
-
+  - Fitness function based on Markov Process (may need to research that).  Less used paths scored higher
+  - Cross mutation.  Taking values from high valued inputs and swapping pieces.
+  - terminals and non-terminals (keywords, mixed in with anything).  Transforming between them.
+  
 Constraint solvers
 
 Sage from Microsoft
