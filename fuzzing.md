@@ -2,7 +2,7 @@
 title: Fuzzing
 description: Notes on Fuzzing Research
 published: true
-date: 2022-12-08T18:31:38.098Z
+date: 2022-12-08T18:32:46.049Z
 tags: 
 editor: markdown
 dateCreated: 2022-11-28T06:48:05.014Z
@@ -14,6 +14,7 @@ Jared Demott - EFS (Exploratory Fuzzing)
 
 # Tools
 Sidewinder  from whom?
+ - https://www.blackhat.com/presentations/bh-usa-06/BH-US-06-Embleton.pdfhttps://www.blackhat.com/presentations/bh-usa-06/BH-US-06-Embleton.pdf
 
 Constraint solvers
 
