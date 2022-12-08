@@ -2,7 +2,7 @@
 title: Fuzzing
 description: Notes on Fuzzing Research
 published: true
-date: 2022-12-08T21:47:37.436Z
+date: 2022-12-08T21:50:40.123Z
 tags: 
 editor: markdown
 dateCreated: 2022-11-28T06:48:05.014Z
@@ -31,6 +31,8 @@ AFL 
 -   AFL++ - More improvements to afl
 -   Part of liveoverflows series on sudo fuzzing - 
     https://www.youtube.com/watch?v=zdzcTh9kUrc&list=PLhixgUqwRTjy0gMuT4C3bmjeZjuNQyqdx&index=10
+-   Minimizes test inputs.  ./afl-tmin -i test_case -o minimized_result -- /path/to/program [...]
+
 
 Project Springfield (SAGE based fuzzing service)
 
