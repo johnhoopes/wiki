@@ -1,11 +1,18 @@
-<!-- TITLE: Mobile -->
-<!-- SUBTITLE: A quick summary of Mobile Application Testing -->
+---
+title: Mobile
+description: A quick summary of Mobile Application Testing
+published: true
+date: 2022-12-19T20:28:14.734Z
+tags: 
+editor: markdown
+dateCreated: 2022-10-01T21:22:52.725Z
+---
 
 # Android
 [ADB Commands](/mobile-adb)
 [Pulling APK from Device](/mobile-fetching-apk)
 [Extracting APK](/mobile-extracting-apks)
-[Installing an aab file](/installing_aab_android)
+[Installing an apk file using adb](/installing_aab_android)
 [dex2jar](/mobile-dex2jar)
 [Modification of APK](/mobile-apk-modification)
 [Debugging](/mobile/android-debugging)
