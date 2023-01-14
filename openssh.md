@@ -1,5 +1,23 @@
-<!-- TITLE: Openssh -->
-<!-- SUBTITLE: A quick summary of Openssh -->
+---
+title: Openssh
+description: A quick summary of Openssh
+published: true
+date: 2023-01-14T04:09:20.262Z
+tags: 
+editor: markdown
+dateCreated: 2022-10-01T21:23:50.953Z
+---
+
+
+# SSH Agent
+```
+eval `ssh-agent`
+ssh-add # Will add all keys from ~/.ssh
+ssh-add -l # Displays the added keys
+```
+
+then use ssh -A to forward 
+
 
 # Resuming an SCP transfer
 ```
