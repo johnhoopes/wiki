@@ -1,8 +1,8 @@
 ---
-title: git
+title: OpenSSH
 description: A quick summary of Openssh
 published: true
-date: 2023-01-14T04:09:41.520Z
+date: 2023-01-14T04:10:15.813Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-01T21:23:50.953Z
