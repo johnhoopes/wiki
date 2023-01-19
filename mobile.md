@@ -2,7 +2,7 @@
 title: Mobile
 description: A quick summary of Mobile Application Testing
 published: true
-date: 2022-12-19T20:28:14.734Z
+date: 2023-01-19T19:01:55.350Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-01T21:22:52.725Z
@@ -17,6 +17,7 @@ dateCreated: 2022-10-01T21:22:52.725Z
 [Modification of APK](/mobile-apk-modification)
 [Debugging](/mobile/android-debugging)
 [mobsf](/mobsf)
+[Drozer](/drozer)
 [Rooting TCL XL](/mobile/tclxlroot)
 [Backdoor_w_meterpreter](/mobile/android-meterp)
 [Adding CA to system Cert repo](/mobile/android-certs)
