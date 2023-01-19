@@ -1,5 +1,18 @@
-<!-- TITLE: Python -->
-<!-- SUBTITLE: A quick summary of Python -->
+---
+title: Python
+description: A quick summary of Python
+published: true
+date: 2023-01-19T15:30:54.355Z
+tags: 
+editor: markdown
+dateCreated: 2022-10-01T21:25:57.730Z
+---
+
+
+# Virtual Environments
+[cygwin](/python-cygwin)
+[python3](/python3-venv)
+[python2](/python2-venv)
 
 # Useful Code
 [tcp client](/python-tcpclient)
