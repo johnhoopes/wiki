@@ -2,7 +2,7 @@
 title: Drozer - Tool for dyamic Exploration of Android Apps
 description: 
 published: true
-date: 2023-01-19T19:22:40.756Z
+date: 2023-01-19T20:12:17.668Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-19T19:22:40.756Z
@@ -134,8 +134,15 @@ dz> run app.provider.query content://com.kroger.kart.providers.UserContentProvid
 | table | sqlite_sequence  | sqlite_sequence  | 5        | CREATE TABLE sqlite_sequence(name,seq)                                                                   |
 ```
 
+# Info about Services
+```
+dz> run app.service.info -a com.kroger.kart
+Package: com.kroger.kart
+  androidx.work.impl.background.systemjob.SystemJobService
+    Permission: android.permission.BIND_JOB_SERVICE
+```
 
 # Need to learn to start drozer from adb
-adb am start PACKAGENAME:Intent
+adb am start com.mwr.dz:com.mwr.dz.activities.MainActivity
 Don't know either PACKAGENAME or Intent yet.  Will fix page.
 
