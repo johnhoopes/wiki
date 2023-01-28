@@ -2,7 +2,7 @@
 title: Linux Systemctl
 description: How to make a Service under Systemctl
 published: true
-date: 2023-01-28T16:07:33.829Z
+date: 2023-01-28T16:10:06.360Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-01T21:21:21.191Z
@@ -21,6 +21,21 @@ Restart=on-failure
 
 [Install]
 WantedBy=multi-user.target
+```
+How to do it with tmux (This is a user one.  Some new stuff here).
+```
+[Unit]
+Description=Weechat IRC Client (in tmux)
+After=network-online.target
+
+[Service]
+Type=oneshot
+RemainAfterExit=yes
+ExecStart=/usr/bin/tmux -2 -u new-session -d -s irc /usr/bin/weechat
+ExecStop=/usr/bin/tmux kill-session -t irc
+
+[Install]
+WantedBy=default.target
 ```
 
 # Installation
