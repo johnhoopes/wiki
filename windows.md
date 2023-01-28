@@ -2,7 +2,7 @@
 title: Windows
 description: A quick summary of Windows
 published: true
-date: 2022-11-17T17:43:21.808Z
+date: 2023-01-28T23:35:31.227Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-01T21:29:03.176Z
@@ -110,6 +110,29 @@ gpupdate /force
 reg add "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management" /v FeatureSettingsOverride /t REG_DWORD /d 3 /f
 reg add "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management" /v FeatureSettingsOverrideMask /t REG_DWORD /d 3 /f 
 ```
+
+# Scripted FTP
+```
+echo open 192.168.1.101 21> ftp.txt
+echo USER asshat>> ftp.txt
+echo mysecretpassword>> ftp.txt
+echo bin>> ftp.txt
+echo GET wget.exe>> ftp.txt
+echo bye>> ftp.txt
+```
+
+And then
+```
+ftp -v -n -s:ftp.txt
+```
+
+# TFTP
+up to windows 2003
+```
+tftp -i 192.160.1.101 GET wget.exe
+```
+
+
 
 
 
