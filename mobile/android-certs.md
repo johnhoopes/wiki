@@ -2,7 +2,7 @@
 title: Android Certs
 description: A quick summary of Android Certs
 published: true
-date: 2023-03-08T21:02:19.863Z
+date: 2023-03-08T21:03:11.211Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-01T21:29:52.057Z
@@ -34,7 +34,7 @@ Install Burp CA Cert into device when above doesn't work
 		openssl x509 -inform PEM -text -in burp.cer -out /dev/null >> 5ed36f99.0
 		
     
-# Another method that has been tested on TCL phone
+# Another method that has been tested on TCL phone (not persistent; have to do every reboot)
 
 1. Get Burp cert and conver to PEM format (with  ---Begin Cert--) etc.
 2. Get the hash using following command
