@@ -2,7 +2,7 @@
 title: Android Certs
 description: A quick summary of Android Certs
 published: true
-date: 2023-03-08T21:03:11.211Z
+date: 2023-03-08T21:04:02.034Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-01T21:29:52.057Z
@@ -67,7 +67,7 @@ cp /data/local/tmp/certs/ /system/etc/security/cacerts/
 ```
 cp /data/local/tmp/9a5ba575.0 /system/etc/security/cacerts/
 ```
-10. Fix the perms
+10. Fix the perms  (chcon sets selinux permissions)
 ```
 chown root;root /system/etc/cacerts/*
 chmod 644 /system/etc/security/cacerts/*
