@@ -2,7 +2,7 @@
 title: Mobile
 description: A quick summary of Mobile Application Testing
 published: true
-date: 2023-05-09T20:37:33.185Z
+date: 2023-05-09T20:37:40.385Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-01T21:22:52.725Z
@@ -23,6 +23,7 @@ dateCreated: 2022-10-01T21:22:52.725Z
 [Adding CA to system Cert repo](/mobile/android-certs)
 [FRIDA](/frida)
 [Objection](/objection)
+
 # IOS
 [Accessing IPA File on Device](/mobile-ios-ipa)
 [Exploring IOS Device Backup](/mobile-ios-backup)
