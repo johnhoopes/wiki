@@ -1,5 +1,12 @@
-<!-- TITLE: Frida -->
-<!-- SUBTITLE: A quick summary of Frida -->
+---
+title: Frida
+description: A quick summary of Frida
+published: true
+date: 2023-05-09T19:31:15.389Z
+tags: 
+editor: markdown
+dateCreated: 2022-10-01T21:19:23.881Z
+---
 
 # Installation
 ```
@@ -7,8 +14,16 @@ pip install frida
 pip install frida-tools
 ```
 
+
 Then you need a frida-server installed on the device.  Grab that here.... https://github.com/frida/frida/releases
 Note that x86 or x86_64 depends on the processor of emulator (mine is x86 for now)
+# Determinng ABI Version
+```
+adb shell
+getprop | grep abi
+```
+
+# Upload the server
 
 ```
 adb root # might be required
