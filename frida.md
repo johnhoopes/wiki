@@ -2,7 +2,7 @@
 title: Frida
 description: A quick summary of Frida
 published: true
-date: 2023-05-09T19:31:15.389Z
+date: 2023-05-09T20:36:04.864Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-01T21:19:23.881Z
@@ -37,6 +37,10 @@ adb shell "/data/local/tmp/frida-server &"
 ```
 frida-ps -U
 ```
+
+
+# Use better script for ssl validation issues
+From https://raw.githubusercontent.com/httptoolkit/frida-android-unpinning/main/frida-script.js
 
 # Frida Script to ignore SSL validation issues 
 (save below as universal-ssl-check-bypass.js)
