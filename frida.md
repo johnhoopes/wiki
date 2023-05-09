@@ -2,11 +2,14 @@
 title: Frida
 description: A quick summary of Frida
 published: true
-date: 2023-05-09T20:36:04.864Z
+date: 2023-05-09T20:36:55.528Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-01T21:19:23.881Z
 ---
+
+Also remember objection that does cool stuff with Frida
+
 
 # Installation
 ```
