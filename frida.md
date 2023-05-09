@@ -2,13 +2,13 @@
 title: Frida
 description: A quick summary of Frida
 published: true
-date: 2023-05-09T20:36:55.528Z
+date: 2023-05-09T20:43:13.681Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-01T21:19:23.881Z
 ---
 
-Also remember objection that does cool stuff with Frida
+Also remember [objection](/objection) that does cool stuff with Frida
 
 
 # Installation
@@ -19,12 +19,18 @@ pip install frida-tools
 
 
 Then you need a frida-server installed on the device.  Grab that here.... https://github.com/frida/frida/releases
-Note that x86 or x86_64 depends on the processor of emulator (mine is x86 for now)
+
+
 # Determinng ABI Version
 ```
 adb shell
 getprop | grep abi
 ```
+Note that x86 or x86_64 depends on the processor of target
+* Emulator on mine is x86 for now
+* TCL is arm (I think... verify)
+* Pixel 6a is arm64
+Error will say something about can't handle 64 bit processes if you need arm64
 
 # Upload the server
 
@@ -35,7 +41,7 @@ adb shell "chmod 755 /data/local/tmp/frida-server"
 adb shell "/data/local/tmp/frida-server &"
 ```
 
-
+#
 # PS Listing
 ```
 frida-ps -U
@@ -66,6 +72,9 @@ Using the script to start an app hooked.
 ```
 jhoopes@LAPTOP-H5S9KB5I:~$ frida -U -f com.seic.swp.penntrust -l universal-ssl-check-bypass.js --no-pause
 ```
+
+# And to set application level proxy
+Use [objection](/objection)
 
 # Python interfacing with a running process
 ```
