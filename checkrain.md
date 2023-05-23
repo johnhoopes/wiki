@@ -2,7 +2,7 @@
 title: Checkrain
 description: A quick summary of Checkrain
 published: true
-date: 2023-05-23T19:04:25.655Z
+date: 2023-05-23T19:05:09.544Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-01T21:17:49.513Z
@@ -27,7 +27,7 @@ normal
 # Success on 05/23/2023
 Red USB has Ventoy and two ISOs.
 Booted Ubuntu  (if UEFI gets in way boot with Grub)
-Note that the usb hub with usb3.0 ports worked fine.
+Note that the usb hub with usb3.0 ports worked fine for booting.
 Select the "Try Ubuntu" option
 Connect to network
 From terminal: 
