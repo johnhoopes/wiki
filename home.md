@@ -2,7 +2,7 @@
 title: Tilver's Musings
 description: A Way for Tilver to Organize his thoughts
 published: true
-date: 2022-12-07T05:04:17.501Z
+date: 2023-06-09T15:31:28.616Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-01T21:20:18.291Z
@@ -46,6 +46,9 @@ dateCreated: 2022-10-01T21:20:18.291Z
 * [Cygwin](/cygwin)
 
 [IOS](/ios)
+
+# Hardware - Testing and RE
+[i2](/hardware-i2c)
 
 # Topics to Research
 [WPAD](/wpad)
