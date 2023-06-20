@@ -2,7 +2,7 @@
 title: Frida
 description: A quick summary of Frida
 published: true
-date: 2023-05-09T20:43:13.681Z
+date: 2023-06-20T15:39:42.490Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-01T21:19:23.881Z
@@ -40,6 +40,11 @@ adb push frida-server /data/local/tmp/
 adb shell "chmod 755 /data/local/tmp/frida-server"
 adb shell "/data/local/tmp/frida-server &"
 ```
+
+
+# Using Frida on a non-jailbroken application
+From https://koz.io/using-frida-on-android-without-root/
+Don't feel like putting info in now, but it involves adding a bit of frida to the apk file resigning and installing it.  See the link
 
 #
 # PS Listing
