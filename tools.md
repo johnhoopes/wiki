@@ -1,5 +1,12 @@
-<!-- TITLE: Tools -->
-<!-- SUBTITLE: Lots of Tools I use-->
+---
+title: Tools
+description: Lots of Tools I use
+published: true
+date: 2023-07-27T00:08:16.614Z
+tags: 
+editor: markdown
+dateCreated: 2022-10-01T21:27:45.064Z
+---
 
 # Attack Frameworks
 [Metasploit](/metasploit-main)
@@ -89,3 +96,6 @@ teraform
 
 # Sound Manipulation
 [ffmpeg](/ffmpeg)
+
+# HAK 5 Stuff
+[sharkjack](/sharkjack)
