@@ -2,7 +2,7 @@
 title: Telegram Notifications
 description:  How to set up and use
 published: true
-date: 2023-08-01T16:40:03.118Z
+date: 2023-08-01T16:40:25.941Z
 tags: 
 editor: markdown
 dateCreated: 2023-08-01T16:40:03.118Z
@@ -28,3 +28,5 @@ curl -i -X GET "https://api.telegram.org/bot<BOT_TOKEN>/sendMessage?chat_id=<CHA
 ```
 
 
+All of this from:
+https://bananamafia.dev/post/telegram-notifications/
