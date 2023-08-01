@@ -2,7 +2,7 @@
 title: Tools
 description: Lots of Tools I use
 published: true
-date: 2023-07-27T00:08:16.614Z
+date: 2023-08-01T16:37:16.772Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-01T21:27:45.064Z
@@ -99,3 +99,7 @@ teraform
 
 # HAK 5 Stuff
 [sharkjack](/sharkjack)
+
+# Notifications
+[pushover](/pushover)
+[telegram](/telegram-notifications)
