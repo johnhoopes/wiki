@@ -2,7 +2,7 @@
 title: Checkrain
 description: A quick summary of Checkrain
 published: true
-date: 2023-05-23T19:05:09.544Z
+date: 2023-08-02T22:21:38.655Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-01T21:17:49.513Z
@@ -32,7 +32,10 @@ Select the "Try Ubuntu" option
 Connect to network
 From terminal: 
 ```
-apt-get-repository universe
+echo 'deb https://assets.checkra.in/debian /' >> /etc/apt/sources.list
+apt-key adv --fetch-keys https://assets.checkra.in/debian/archive.key
+apt-add-repository universe
+#note that the universe command above caused issues with cdrom repo.  Can kill it
 apt update
 apt install checkra1n
 checkra1n
