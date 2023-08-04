@@ -2,7 +2,7 @@
 title: Objection
 description: Uses Frida to do cool things
 published: true
-date: 2023-05-09T20:40:34.948Z
+date: 2023-08-04T19:15:36.181Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-09T20:40:34.948Z
@@ -20,3 +20,11 @@ objection -N -h 10.0.0.154 --gadget 'application name' explore
 ```
 com.application.blah on (google: 13) [net] # android proxy set 10.0.0.100 8080
 ```
+
+# Prepare to hook a method
+```
+android hooking search methods gatt
+```
+
+Similar works on IOS
+
