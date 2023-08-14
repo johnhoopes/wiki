@@ -2,7 +2,7 @@
 title: Objection
 description: Uses Frida to do cool things
 published: true
-date: 2023-08-04T19:15:36.181Z
+date: 2023-08-14T15:11:23.824Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-09T20:40:34.948Z
@@ -27,4 +27,26 @@ android hooking search methods gatt
 ```
 
 Similar works on IOS
+
+# Hooking
+```
+android hooking watch class_method asvid.github.io.fridaapp.MainActivity.sum --dump-args --dump-backtrace --dump-return
+```
+
+```
+android hooking set return_value asvid.github.io.fridaapp.MainActivity.checkPin true
+```
+
+# keystore
+```
+android keystore list
+```
+
+# Memory
+```
+memory search "<pattern eg: 41 41 41 ?? 41>" (--string) (--offsets-only)
+memory write "<address>" "<pattern eg: 41 41 41 41>" (--string)
+```
+
+# SQLite
 
