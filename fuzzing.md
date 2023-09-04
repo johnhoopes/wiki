@@ -2,7 +2,7 @@
 title: Fuzzing
 description: Notes on Fuzzing Research
 published: true
-date: 2022-12-08T21:50:40.123Z
+date: 2023-09-04T16:16:26.878Z
 tags: 
 editor: markdown
 dateCreated: 2022-11-28T06:48:05.014Z
@@ -13,7 +13,7 @@ dateCreated: 2022-11-28T06:48:05.014Z
 Jared Demott - EFS (Exploratory Fuzzing)
 
 # Tools
-Sidewinder  from whom?
+## Sidewinder  from whom?
  - https://www.blackhat.com/presentations/bh-usa-06/BH-US-06-Embleton.pdfhttps://www.blackhat.com/presentations/bh-usa-06/BH-US-06-Embleton.pdf
   - Fitness function based on Markov Process (may need to research that).  Less used paths scored higher
   - Cross mutation.  Taking values from high valued inputs and swapping pieces.
@@ -22,24 +22,31 @@ Sidewinder  from whom?
 Constraint solvers
 
 Sage from Microsoft
-
-AFL 
-
- - https://github.com/vanhauser-thc/afl-cov - Shows coverage of fuzz
-
--   Improvements to AFL
--   AFL++ - More improvements to afl
--   Part of liveoverflows series on sudo fuzzing - 
-    https://www.youtube.com/watch?v=zdzcTh9kUrc&list=PLhixgUqwRTjy0gMuT4C3bmjeZjuNQyqdx&index=10
--   Minimizes test inputs.  ./afl-tmin -i test_case -o minimized_result -- /path/to/program [...]
-
-
 Project Springfield (SAGE based fuzzing service)
 
 
+## AFL 
+
+- https://github.com/vanhauser-thc/afl-cov - Shows coverage of fuzz
+
+-   Improvements to AFL
+-   Part of liveoverflows series on sudo fuzzing - 
+    https://www.youtube.com/watch?v=zdzcTh9kUrc&list=PLhixgUqwRTjy0gMuT4C3bmjeZjuNQyqdx&index=10
+-   Minimizes test inputs.  ./afl-tmin -i test_case -o minimized_result -- /path/to/program [...]
+## AFL++
+- Figure out how instrumentation works
+- Instrumenting in binaries
+ 
+## Frida for non-mobile
+
+## Radare / Rizin / Cutter
+
+## QEMU for fuzzing
+
 # Remote GDB - 
 
--   \- What does it take to make a gdb server?
+-  What does it take to make a gdb server?
+-  How do I connect
 
 # Crash Detection
 
