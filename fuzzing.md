@@ -2,7 +2,7 @@
 title: Fuzzing
 description: Notes on Fuzzing Research
 published: true
-date: 2023-09-04T22:51:13.366Z
+date: 2023-09-04T22:55:07.884Z
 tags: 
 editor: markdown
 dateCreated: 2022-11-28T06:48:05.014Z
@@ -61,7 +61,10 @@ Project Springfield (SAGE based fuzzing service)
  - AFL++ Hardening  (check AFL readme sections)
    - Stack protection
    - Foritify source
-   
+ # Dictionaries
+ - Helps the token engine apparently
+ - Libtokencap (looks at strcmp and memcmp calls to find good things to try in payloads)
+ 
 # Google Clusters Fuzz
 # MSFT One Fuzz
    
