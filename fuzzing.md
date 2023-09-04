@@ -2,7 +2,7 @@
 title: Fuzzing
 description: Notes on Fuzzing Research
 published: true
-date: 2023-09-04T16:16:26.878Z
+date: 2023-09-04T16:17:57.174Z
 tags: 
 editor: markdown
 dateCreated: 2022-11-28T06:48:05.014Z
@@ -59,6 +59,7 @@ Project Springfield (SAGE based fuzzing service)
 ## How to fuzz network daemon.  
 I can find read and change value read.  How to set state to something valid before continuing.  In case of tcpserver, it's going to try to write a response back.  Is that the right place to terminate execution?
 
+Maybe alfnet - https://github.com/aflnet/aflnet
 ## Scenario:
 
 Echo demon
