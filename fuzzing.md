@@ -2,7 +2,7 @@
 title: Fuzzing
 description: Notes on Fuzzing Research
 published: true
-date: 2023-09-04T22:39:08.545Z
+date: 2023-09-04T22:51:13.366Z
 tags: 
 editor: markdown
 dateCreated: 2022-11-28T06:48:05.014Z
@@ -48,6 +48,23 @@ Project Springfield (SAGE based fuzzing service)
 
 ## QEMU for fuzzing
 
+# Sanitizers
+- For crash detection 
+- Usually can only run one at a time.
+- Slows programs significantly
+  - Undefined Behavior Sanitizer - signed overflows, nullpointers
+  - Memory Sanitizer - unitizialized memory reads
+  - Address Sanitizer - memory corruption detection
+  - Thread Sanitizer - race conditions
+  
+ # Hardening
+ - AFL++ Hardening  (check AFL readme sections)
+   - Stack protection
+   - Foritify source
+   
+# Google Clusters Fuzz
+# MSFT One Fuzz
+   
 # Remote GDB - 
 
 -  What does it take to make a gdb server?
