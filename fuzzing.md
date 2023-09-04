@@ -2,7 +2,7 @@
 title: Fuzzing
 description: Notes on Fuzzing Research
 published: true
-date: 2023-09-04T16:17:57.174Z
+date: 2023-09-04T22:36:03.780Z
 tags: 
 editor: markdown
 dateCreated: 2022-11-28T06:48:05.014Z
@@ -33,10 +33,13 @@ Project Springfield (SAGE based fuzzing service)
 -   Part of liveoverflows series on sudo fuzzing - 
     https://www.youtube.com/watch?v=zdzcTh9kUrc&list=PLhixgUqwRTjy0gMuT4C3bmjeZjuNQyqdx&index=10
 -   Minimizes test inputs.  ./afl-tmin -i test_case -o minimized_result -- /path/to/program [...]
+
 ## AFL++
 - Figure out how instrumentation works
 - Instrumenting in binaries
- 
+- Training https://www.youtube.com/watch?v=6YLz9IGAGLw
+- Deferred Fork mode (doesn't fork a new process until just before the key bit... not sure how this would work for a socket, but good for speed).
+
 ## Frida for non-mobile
 
 ## Radare / Rizin / Cutter
