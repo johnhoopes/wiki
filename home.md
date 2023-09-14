@@ -2,7 +2,7 @@
 title: Tilver's Musings
 description: A Way for Tilver to Organize his thoughts
 published: true
-date: 2023-06-09T15:31:28.616Z
+date: 2023-09-14T01:42:13.051Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-01T21:20:18.291Z
@@ -12,6 +12,7 @@ dateCreated: 2022-10-01T21:20:18.291Z
 [Tools](/tools)
 [Exploits](/exploits)
 [Blogs](/blogs)
+[PI](/raspberry_pi_techniques)
 # Application Security
 [Web](/webapps)
 [Mobile Clients](/mobile)
@@ -23,6 +24,7 @@ dateCreated: 2022-10-01T21:20:18.291Z
 [Wireless](/wireless)
 [Bridging](/bridging)
 [ArpSpoofing](/arpspoofing)
+[IPV6](/ipv6)
 [Modems](/modems)
 [General Network Tricks](/generalnetworktricks)
 # Languages - Tips and Notes
@@ -48,8 +50,8 @@ dateCreated: 2022-10-01T21:20:18.291Z
 [IOS](/ios)
 
 # Hardware - Testing and RE
-[i2](/hardware-i2c)
-
+[i2c](/hardware-i2c)
+[spi](/hardware-spi)
 # Topics to Research
 [WPAD](/wpad)
 [UPNP](/upnp)
