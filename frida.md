@@ -2,7 +2,7 @@
 title: Frida
 description: A quick summary of Frida
 published: true
-date: 2023-09-26T04:23:23.942Z
+date: 2023-09-26T04:44:30.956Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-01T21:19:23.881Z
@@ -231,6 +231,18 @@ Interceptor.attach(f, {
         Thread.backtrace(this.context, Backtracer.ACCURATE)
         .map(DebugSymbol.fromAddress).join('\n') + '\n');
   }
+});
+```
+
+# Patching Memory
+```
+const getLivesLeft = Module.getExportByName('game-engine.so', 'get_lives_left');
+const maxPatchSize = 64; // Do not write out of bounds, may be a temporary buffer!
+Memory.patchCode(getLivesLeft, maxPatchSize, code => {
+  const cw = new X86Writer(code, { pc: getLivesLeft });
+  cw.putMovRegU32('eax', 9000);
+  cw.putRet();
+  cw.flush();
 });
 ```
 
