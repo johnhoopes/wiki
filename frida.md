@@ -2,7 +2,7 @@
 title: Frida
 description: A quick summary of Frida
 published: true
-date: 2023-09-26T03:20:46.847Z
+date: 2023-09-26T04:23:23.942Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-01T21:19:23.881Z
@@ -220,3 +220,17 @@ Options for specifying functions to trace
     
 Effectively trace all the str and mem functions that aren't in msvcrt.dll
 ```
+
+# How to do a backtrace of a function
+```
+const f = Module.getExportByName('libcommonCrypto.dylib',
+    'CCCryptorCreate');
+Interceptor.attach(f, {
+  onEnter(args) {
+    console.log('CCCryptorCreate called from:\n' +
+        Thread.backtrace(this.context, Backtracer.ACCURATE)
+        .map(DebugSymbol.fromAddress).join('\n') + '\n');
+  }
+});
+```
+
