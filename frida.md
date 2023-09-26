@@ -2,7 +2,7 @@
 title: Frida
 description: A quick summary of Frida
 published: true
-date: 2023-09-26T02:36:53.306Z
+date: 2023-09-26T03:20:46.847Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-01T21:19:23.881Z
@@ -217,5 +217,6 @@ Options for specifying functions to trace
     '-X "msvcrt.dll"'     tries to remove the 28 "str" and 6 "mem" functions originating in msvcrt.dll. Since the working set is empty, there is nothing to remove, working set has 0 entries.
     '-i "str*"'    matches 80 functions in 3 modules, working set has 80 entries
     '-i "mem*"'    matches 18 functions in 3 modules, final working set has 98 entries
+    
 Effectively trace all the str and mem functions that aren't in msvcrt.dll
 ```
