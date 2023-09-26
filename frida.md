@@ -2,7 +2,7 @@
 title: Frida
 description: A quick summary of Frida
 published: true
-date: 2023-06-20T15:39:42.490Z
+date: 2023-09-26T02:17:43.233Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-01T21:19:23.881Z
@@ -194,3 +194,8 @@ Makes .js handlers in a _ _handler_ _ directory which can be used to log argumen
 ```frida -A -p <pid> -i "*"```
 
 Get lots of onEnter and onLeave that can be used to log arguments.  Not sure if arguments can be changed or if the call of the function could be cancelled.
+
+# When you get a long list and want to look at pieces
+```
+Object.keys(ObjC.classes).slice(0, 10)
+```
