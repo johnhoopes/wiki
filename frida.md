@@ -2,7 +2,7 @@
 title: Frida
 description: A quick summary of Frida
 published: true
-date: 2023-09-26T02:17:43.233Z
+date: 2023-09-26T02:36:53.306Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-01T21:19:23.881Z
@@ -198,4 +198,24 @@ Get lots of onEnter and onLeave that can be used to log arguments.  Not sure if 
 # When you get a long list and want to look at pieces
 ```
 Object.keys(ObjC.classes).slice(0, 10)
+```
+
+# Frida-trace
+```
+frida-trace --decorate -i "recv*" -i "send*" Safari
+frida-trace -U -f com.google.android.youtube --runtime=v8 -j '*!*certificate*/isu'
+frida-trace -p 1372 -i "msvcrt.dll!*mem*"
+```
+Options for specifying functions to trace
+```
+-i “msvcrt.dll!cpy” 	Matches all functions with ‘cpy’ in its name, ONLY in msvcrt.dll
+-i “free” 	Matches all functions with ‘free’ in its name in ALL modules
+-i “!free” 	Identical to -i “free”
+-i “gdi32.dll!” 	Trace all functions in gdi32.dll (identical to -I “gdi32.dll”)
+
+-X "msvcrt.dll" -i "str*" -i "mem*"
+    '-X "msvcrt.dll"'     tries to remove the 28 "str" and 6 "mem" functions originating in msvcrt.dll. Since the working set is empty, there is nothing to remove, working set has 0 entries.
+    '-i "str*"'    matches 80 functions in 3 modules, working set has 80 entries
+    '-i "mem*"'    matches 18 functions in 3 modules, final working set has 98 entries
+Effectively trace all the str and mem functions that aren't in msvcrt.dll
 ```
