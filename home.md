@@ -2,7 +2,7 @@
 title: Tilver's Musings
 description: A Way for Tilver to Organize his thoughts
 published: true
-date: 2023-09-14T01:42:13.051Z
+date: 2023-10-07T11:40:42.971Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-01T21:20:18.291Z
@@ -13,6 +13,23 @@ dateCreated: 2022-10-01T21:20:18.291Z
 [Exploits](/exploits)
 [Blogs](/blogs)
 [PI](/raspberry_pi_techniques)
+
+# Mitre
+[Reconnaisance](/mitre-reconnaisance)
+[Resource Development](/mitre-resourcedev)
+[Initial Access](/mitre-init_access)
+[Execution](/mitre-execution)
+[Persistence](/mitre-persist)
+[Privilege Escalation](/mitre-privesc)
+[Defense Evasion](/mitre-defenseevasion)
+[Credential Access](/mitre-credaccess)
+[Discovery](/mitre-discovery)
+[Lateral Movement](/mitre-lateralmove)
+[Collection](/mitre-collection)
+[Command and Control](/mitre-c2)
+[Exfiltration](/mitre-exfil)
+[Impact](/mitre-impact)
+
 # Application Security
 [Web](/webapps)
 [Mobile Clients](/mobile)
