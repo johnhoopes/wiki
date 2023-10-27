@@ -2,7 +2,7 @@
 title: Python
 description: A quick summary of Python
 published: true
-date: 2023-01-19T15:30:54.355Z
+date: 2023-10-27T13:58:34.700Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-01T21:25:57.730Z
@@ -22,6 +22,7 @@ dateCreated: 2022-10-01T21:25:57.730Z
 [USB Client in Python](/python-usbclient)
 [Windows-Debugging-Python](/windows-debugging-python)
 [ipython](/ipython)
+[interactivedebugpython](/codeinteract) - Pause and inspect things
 # Useful Modules
 [scapy](/python-scapy)
 [paramiko - SSH for python](/paramiko)
