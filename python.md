@@ -2,7 +2,7 @@
 title: Python
 description: A quick summary of Python
 published: true
-date: 2023-10-27T14:06:57.579Z
+date: 2023-11-15T19:54:18.119Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-01T21:25:57.730Z
@@ -33,6 +33,7 @@ dateCreated: 2022-10-01T21:25:57.730Z
 [String Functions](/python-strings)
 [Process Functions](/python-processes)
 [Describing Modules](/python-module-description)
+[Describing Objects](/python-object-description)
 [C-Types](/python-ctypes)
 [object functions](/python-object-functions)
 [64bit Address Handling](python-64bit-handling)
