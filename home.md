@@ -2,7 +2,7 @@
 title: Tilver's Musings
 description: A Way for Tilver to Organize his thoughts
 published: true
-date: 2023-10-07T11:57:52.478Z
+date: 2023-12-01T18:50:42.978Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-01T21:20:18.291Z
@@ -57,6 +57,7 @@ dateCreated: 2022-10-01T21:20:18.291Z
 [ARM Assembly](/arm-asm)
 [Windows PE](/windows-pe)
 [Angular](/angular)
+[Erlang](/erlang)
 
 # Operating Systems - Tips and Notes
 [Linux](/linux)
