@@ -2,7 +2,7 @@
 title: Glitching
 description: 
 published: true
-date: 2023-12-16T03:26:02.410Z
+date: 2023-12-16T07:17:52.763Z
 tags: 
 editor: markdown
 dateCreated: 2023-12-16T03:26:02.410Z
@@ -10,6 +10,9 @@ dateCreated: 2023-12-16T03:26:02.410Z
 
 # Goal
 * Learn Glitching
+* Learn FPGA
+* Learn Python Hardware interfacing (GPIO on RASPI)
+* Learn Python Serial interfacing
 * Get something cool for Blackhat
 
 # Steps
@@ -29,4 +32,11 @@ dateCreated: 2023-12-16T03:26:02.410Z
 9. Send clock count and pin to start count and pin to light when time comes.
 10. Wire power on of chip to start count pin on fpga.
 11. Wire FPGA-Light -> EMP Trigger (and status light?)
+12. Write Python harness
+ - send session information to FPGA
+ - reset chip (and trigger fpga to start counting)
+ - wait some period of time
+ - test reading chip
+ - detect functionality? (watch blink pin?)
+ 
 
