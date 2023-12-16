@@ -2,7 +2,7 @@
 title: Tilver's Musings
 description: A Way for Tilver to Organize his thoughts
 published: true
-date: 2023-12-16T03:06:50.490Z
+date: 2023-12-16T03:08:23.777Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-01T21:20:18.291Z
@@ -86,7 +86,7 @@ dateCreated: 2022-10-01T21:20:18.291Z
 [Fuzzing](/fuzzing)
 [Telepresence](/telepresencebot)
 [EDR](/edr)
-[Fuzzer](/fuzzer)
+[Glitching](/glitching)
 
 # Personal (not secret just not tech)
 [Vacation](/vacation)
