@@ -2,7 +2,7 @@
 title: Glitching
 description: 
 published: true
-date: 2024-01-04T19:09:46.259Z
+date: 2024-01-04T19:56:23.663Z
 tags: 
 editor: markdown
 dateCreated: 2023-12-16T03:26:02.410Z
@@ -34,7 +34,7 @@ dateCreated: 2023-12-16T03:26:02.410Z
 9. Send clock count and pin to start count and pin to light when time comes.
 10. Wire power on/off to start count pin on fpga.
 11. Wire FPGA-Light -> EMP Trigger (and status light?)
-12. Wire Power level switching for non-emp switching
+12. Wire Power level switching for non-emp fault injection
 12. Write Python harness
  - send session information to FPGA
  - reset chip (and trigger fpga to start counting)
