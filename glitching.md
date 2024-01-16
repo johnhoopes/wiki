@@ -2,7 +2,7 @@
 title: Glitching
 description: 
 published: true
-date: 2024-01-04T19:56:23.663Z
+date: 2024-01-16T16:17:32.030Z
 tags: 
 editor: markdown
 dateCreated: 2023-12-16T03:26:02.410Z
@@ -18,8 +18,11 @@ dateCreated: 2023-12-16T03:26:02.410Z
 # Steps
 1. Get two microcontrollers?
  - Easy python programming/dumping would be nice.
+ - Got the olimex LPC-P1114 which match chipwhisperer tutorial.
 2. Put a program on that blinks lights?
+ - Came with a blinky light program.  Still don't know how to put a prog on, but that's not target.
 3. Learn to dump the program with python
+ - ISP mode allows memory read in theory {CURRENT STEP}
 4. Lock the chip
 5. Differential Power.  
   - Try Salaea for analog analysis
