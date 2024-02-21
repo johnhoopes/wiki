@@ -2,7 +2,7 @@
 title: Glitching
 description: 
 published: true
-date: 2024-01-16T16:17:32.030Z
+date: 2024-02-21T15:05:19.701Z
 tags: 
 editor: markdown
 dateCreated: 2023-12-16T03:26:02.410Z
@@ -23,6 +23,8 @@ dateCreated: 2023-12-16T03:26:02.410Z
  - Came with a blinky light program.  Still don't know how to put a prog on, but that's not target.
 3. Learn to dump the program with python
  - ISP mode allows memory read in theory {CURRENT STEP}
+ - Can read memory.  Not sure if I'm getting all of it. 
+ - Want to program and compare.
 4. Lock the chip
 5. Differential Power.  
   - Try Salaea for analog analysis
