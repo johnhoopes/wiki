@@ -2,15 +2,15 @@
 title: Using DNSpy to modify a dll
 description: 
 published: true
-date: 2024-04-09T20:28:35.522Z
+date: 2024-04-09T20:29:26.949Z
 tags: 
 editor: markdown
 dateCreated: 2024-04-09T20:28:35.522Z
 ---
 
-# Borrowed from pirate bay
+# Borrowed from Pirate Bay
 
-`1. Install <PRODUCT> and get the latest updates during setup. When it restarts and asks for activation, close the window
+1. Install \<PRODUCT> and get the latest updates during setup. When it restarts and asks for activation, close the window
 2. Download dnSpy-net###.zip from:
 softpedia dot com/get/Programming/Debuggers-Decompilers-Dissasemblers/dnSpy dot shtml
 
@@ -31,4 +31,4 @@ return true;
 
 10. At the bottom of the window, click "Compile" and the window will close
 11. In the main window of dnSpy, click on File -> Save Module. A window will open, click on "OK"
-12. Close the dnSpy program and run PRODUCT. Your product is now "Activated"`
+12. Close the dnSpy program and run PRODUCT. Your product is now "Activated"
