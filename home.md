@@ -2,7 +2,7 @@
 title: Tilver's Musings
 description: A Way for Tilver to Organize his thoughts
 published: true
-date: 2023-12-16T03:08:23.777Z
+date: 2024-04-19T18:37:27.258Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-01T21:20:18.291Z
@@ -68,8 +68,9 @@ dateCreated: 2022-10-01T21:20:18.291Z
 [IOS](/ios)
 
 # Hardware - Testing and RE
-[i2c](/hardware-i2c)
-[spi](/hardware-spi)
+[I2C](/hardware-i2c)
+[SPI](/hardware-spi)
+[Bluetooth](/Bluetooth)
 # Topics to Research
 [WPAD](/wpad)
 [UPNP](/upnp)
