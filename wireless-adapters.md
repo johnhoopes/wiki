@@ -2,7 +2,7 @@
 title: My Wireless Adapters
 description: Enumerating various adapters that I have
 published: true
-date: 2024-06-10T03:59:23.302Z
+date: 2024-06-10T05:41:13.470Z
 tags: 
 editor: markdown
 dateCreated: 2024-06-10T03:35:48.660Z
@@ -69,4 +69,39 @@ root@dragon-VirtualBox:~# aireplay-ng -9 wlan0mon
 21:58:39  Trying broadcast probe requests...
 21:58:39  Injection is working!
 21:58:41  Found 16 APs
+```
+
+# ANEWKODI
+Color: Black
+Desc: small adapter
+USB Desc: 802.11ac WLAN Adapter
+MAC: 00:e0:4c:0a:79:23
+Doesn't show up in Dragon with iwconfig (had to add driver. Info below)
+
+
+The 8821au driver seems to have special settings for hostapd in 2.4 and 5 ghz.
+They'll live in /etc/modprobe.d/8821au.conf 
+May need reboot, may just be able to reload one or more modules.
+
+GIT for the driver:
+https://github.com/morrownr/8821au-20210708
+apt install gcc-12
+./install_driver.sh
+
+```
+        Supported interface modes:
+                 * IBSS
+                 * managed
+                 * AP
+                 * monitor
+                 * P2P-client
+                 * P2P-GO
+
+```
+
+```
+root@dragon-VirtualBox:~/8821au-20210708# aireplay-ng -9 wlx00e04c0a7923
+23:39:02  Trying broadcast probe requests...
+23:39:02  Injection is working!
+23:39:04  Found 6 APs
 ```
