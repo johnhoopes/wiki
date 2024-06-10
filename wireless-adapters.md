@@ -2,7 +2,7 @@
 title: My Wireless Adapters
 description: Enumerating various adapters that I have
 published: true
-date: 2024-06-10T03:53:15.467Z
+date: 2024-06-10T03:59:23.302Z
 tags: 
 editor: markdown
 dateCreated: 2024-06-10T03:35:48.660Z
@@ -45,4 +45,28 @@ Check straight ubuntu
 
 
 # Panda
+Color: Black
+Desc:  Says Panda Wireless on top.  Has RFKill button I think.
+USB Desc: Ralink Technology, Corp. RT5572 Wireless Adapter
+MAC: 9c:ef:d5:fd:1f:08
 
+Can do bgn channels and 'a' channels
+
+
+```
+        Supported interface modes:
+                 * IBSS
+                 * managed
+                 * AP
+                 * AP/VLAN
+                 * monitor
+                 * mesh point
+```
+Need to test 5G AP capability
+
+```
+root@dragon-VirtualBox:~# aireplay-ng -9 wlan0mon
+21:58:39  Trying broadcast probe requests...
+21:58:39  Injection is working!
+21:58:41  Found 16 APs
+```
