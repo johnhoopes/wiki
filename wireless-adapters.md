@@ -2,7 +2,7 @@
 title: My Wireless Adapters
 description: Enumerating various adapters that I have
 published: true
-date: 2024-06-10T05:41:13.470Z
+date: 2024-06-10T06:12:03.189Z
 tags: 
 editor: markdown
 dateCreated: 2024-06-10T03:35:48.660Z
@@ -37,11 +37,37 @@ root@dragon-VirtualBox:~# aireplay-ng -9 wlan0mon
 
 Color: Black
 Desc: Direct USB.  Looks like a wedge, dual antenna
-MAC: Dragon doesn't have the driver for it. virtbox controller might also be issue
+MAC: 8c:88:2a:00:7e:3c
 USB Desc:  MediaTek Inc. MT7612U 802.11a/b/g/n/ac Wireless Adapter
 
 Probably an important card.  Will have to come back to it.
 Check straight ubuntu
+
+Throwing dmesg messages.  Works, but probably bad idea.  Not bad load.
+
+[ 6694.441160] xhci_hcd 0000:00:0c.0: ERROR Transfer event TRB DMA ptr not part of current TD ep_index 8 comp_code 13
+[ 6694.441161] xhci_hcd 0000:00:0c.0: Looking for event-dma 0000000001113d20 trb-start 0000000001113d30 trb-end 0000000001113d60 seg-start 0000000001113000 seg-end 0000000001113ff0
+
+```
+        Supported interface modes:
+                 * IBSS
+                 * managed
+                 * AP
+                 * AP/VLAN
+                 * monitor
+                 * mesh point
+                 * P2P-client
+                 * P2P-GO
+```
+
+```
+root@dragon-VirtualBox:~# iwconfig wlan0mon channel 44
+root@dragon-VirtualBox:~# aireplay-ng -9 wlan0mon
+00:05:38  Trying broadcast probe requests...
+00:05:38  Injection is working!                    
+00:05:40  Found 4 APs                                                          
+```
+
 
 
 # Panda
