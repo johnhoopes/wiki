@@ -2,7 +2,7 @@
 title: Checkrain
 description: A quick summary of Checkrain
 published: true
-date: 2024-09-17T19:16:26.740Z
+date: 2024-10-02T22:40:38.632Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-01T21:17:49.513Z
@@ -52,6 +52,12 @@ Updated to 15.8.3 - Checkra1n doesn't work anymore
 Now must use palera1n
 
 Still using ubuntu Live 22.04
+```
+Hitting enter with usb drive plugged might get to setup on thinkpad
+connect to wireless
+apt install tmux net-tools curl
+put thinkpad back in secure when done.
+```
 
 These instructions:
 https://ios.cfw.guide/installing-palera1n/#running-palera1n
@@ -61,6 +67,7 @@ https://ios.cfw.guide/installing-palera1n/#running-palera1n
     Run sudo usbmuxd -f -p
     Open up another terminal window
     Run sudo /bin/sh -c "$(curl -fsSL https://static.palera.in/scripts/install.sh)"
+    /usr/local/bin/palera1n -f
 ```
 Note 1 - The instructions in app for dfu mode are wrong.  Instead of using home button use volume down and power.
 
