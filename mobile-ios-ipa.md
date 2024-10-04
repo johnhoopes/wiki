@@ -2,7 +2,7 @@
 title: Mobile Ios Ipa
 description: A quick summary of Mobile Ios Ipa
 published: true
-date: 2023-05-23T19:47:22.033Z
+date: 2024-10-04T04:19:54.600Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-01T21:22:47.782Z
@@ -40,6 +40,9 @@ $ pip3 install -r requirements.txt --upgrade
 3. Open a new Terminal window and pull decrypted .ipa:
 ```
 $ cd frida-ios-dump
+#To get the list of packages
+$ python3 dump.py -H 10.0.0.173 -u root -P 1234 -l  
+#Start the app and then run:
 $ python3 dump.py -H 10.0.0.173 -u root -P HateApple! 'PackageName' -p 22
 ```
 
