@@ -2,7 +2,7 @@
 title: Tilver's Musings
 description: A Way for Tilver to Organize his thoughts
 published: true
-date: 2024-04-19T18:37:27.258Z
+date: 2024-10-28T02:35:41.173Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-01T21:20:18.291Z
@@ -72,6 +72,7 @@ dateCreated: 2022-10-01T21:20:18.291Z
 [SPI](/hardware-spi)
 [Bluetooth](/Bluetooth)
 # Topics to Research
+[Artificial Intelligence](/artificialintelligence)
 [WPAD](/wpad)
 [UPNP](/upnp)
 [DHCP](/dhcp) - Other DHCP options.  Can you force page loads / SMB Hash disclosure via other DHCP options?
