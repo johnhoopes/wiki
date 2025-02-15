@@ -2,7 +2,7 @@
 title: Windows
 description: A quick summary of Windows
 published: true
-date: 2023-01-28T23:35:31.227Z
+date: 2025-02-15T20:10:55.011Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-01T21:29:03.176Z
@@ -42,6 +42,11 @@ reg add "HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\System\CredSSP\
 ## On Servers that wont let you connect
 ```text
 reg add "HKLM\System\CurrentControlSet\Control\Terminal Server\Winstations\RDP-Tcp" /v UserAuthentication /t REG_DWORD /d 0 /f
+```
+
+## Using Crackmapexec
+```text
+crackmapexec smb 10.0.0.186 -u Administrator -p NewAdminPassword1! --exec-method smbexec -X 'Disable-WSManCredSSP -Role Server'
 ```
 
 # SMBv1 Allowance
