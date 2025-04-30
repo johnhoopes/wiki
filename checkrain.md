@@ -2,7 +2,7 @@
 title: Checkrain
 description: A quick summary of Checkrain
 published: true
-date: 2024-10-02T22:40:38.632Z
+date: 2025-04-30T18:10:07.059Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-01T21:17:49.513Z
@@ -67,12 +67,14 @@ https://ios.cfw.guide/installing-palera1n/#running-palera1n
     Run sudo usbmuxd -f -p
     Open up another terminal window
     Run sudo /bin/sh -c "$(curl -fsSL https://static.palera.in/scripts/install.sh)"
-    /usr/local/bin/palera1n -f
+    #/usr/local/bin/palera1n -f   (-f didn't work on 10/2/2024 - -l should still work, if root needed ssh and sudo it.)
+    /usr/local/bin/palera1n -l
 ```
 Note 1 - The instructions in app for dfu mode are wrong.  Instead of using home button use volume down and power.
 
 Note 2 - It timed out waiting for download mode.  Unplug and replug cable and it went into download mode.
 Timed out again.  Reran exploit, time out, unplug/replug, and download mode seemed to proceed ok.  Booted kernel, and palera1n was installed.  
 
-
+# Success on 04/30/2025
+Followed above, but key that I forgot to do sudo on palera1n and wasn't root.  It would just sit there trying to detect devices and never find the device that was in recovery mode.
 
