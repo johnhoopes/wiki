@@ -2,7 +2,7 @@
 title: Mobile
 description: A quick summary of Mobile Application Testing
 published: true
-date: 2023-05-09T20:37:40.385Z
+date: 2025-04-30T18:20:36.332Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-01T21:22:52.725Z
@@ -21,7 +21,7 @@ dateCreated: 2022-10-01T21:22:52.725Z
 [Rooting TCL XL](/mobile/tclxlroot)
 [Backdoor_w_meterpreter](/mobile/android-meterp)
 [Adding CA to system Cert repo](/mobile/android-certs)
-[FRIDA](/frida)
+[Frida](/frida)
 [Objection](/objection)
 
 # IOS
