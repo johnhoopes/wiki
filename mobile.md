@@ -2,7 +2,7 @@
 title: Mobile
 description: A quick summary of Mobile Application Testing
 published: true
-date: 2025-04-30T18:21:06.022Z
+date: 2025-05-22T17:52:58.228Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-01T21:22:52.725Z
@@ -29,6 +29,7 @@ dateCreated: 2022-10-01T21:22:52.725Z
 [Exploring IOS Device Backup](/mobile-ios-backup)
 [Jailbreaking with CheckRa1n](/checkrain)
 [Installing Frida](/iosfridainstall)
+[Installing CA on IOS](/ios_ca_install)
 
 # Both
 [Frida](/frida)
