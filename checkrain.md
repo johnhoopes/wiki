@@ -2,7 +2,7 @@
 title: Checkrain
 description: A quick summary of Checkrain
 published: true
-date: 2025-04-30T18:10:07.059Z
+date: 2025-06-02T04:15:46.689Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-01T21:17:49.513Z
@@ -77,4 +77,16 @@ Timed out again.  Reran exploit, time out, unplug/replug, and download mode seem
 
 # Success on 04/30/2025
 Followed above, but key that I forgot to do sudo on palera1n and wasn't root.  It would just sit there trying to detect devices and never find the device that was in recovery mode.
+
+# Success on 06/01/2025
+Orange PI 5 plus is a viable option!!! (currently 192.168.1.124 or orangepi5plus.lan)
+```
+# apt install usbmuxd
+# systemctl stop usbmuxd
+# usbmuxd -f -
+
+Different Window
+# sudo /bin/sh -c "$(curl -fsSL https://static.palera.in/scripts/install.sh)"
+# palera1n -l
+```
 
