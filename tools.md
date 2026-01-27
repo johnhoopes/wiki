@@ -2,7 +2,7 @@
 title: Tools
 description: Lots of Tools I use
 published: true
-date: 2023-08-01T16:37:16.772Z
+date: 2026-01-27T03:49:55.198Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-01T21:27:45.064Z
@@ -10,6 +10,7 @@ dateCreated: 2022-10-01T21:27:45.064Z
 
 # Attack Frameworks
 [Metasploit](/metasploit-main)
+[Sliver](/sliver-framework)
 [Social Engineering Toolkit](/set)
 
 # Active Directory Tools
